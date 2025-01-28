@@ -1,0 +1,109 @@
+{
+  "id": "Valetudo_Vacuum_Robot_API_v2",
+  "name": "Valetudo Vacuum Robot",
+  "actions": [
+    {
+      "name": "basicControl",
+      "actionModelName": "GridActionHTTP",
+      "customValues": [
+        {
+          "name": "actionType",
+          "type": "select",
+          "values": [
+            "start",
+            "stop",
+            "pause",
+            "home"
+          ]
+        },
+        {
+          "name": "deviceAddress",
+          "type": "text",
+          "placeholder": "like <192.168.0.50> or <https://192.168.0.50>",
+          "autoStartWith": [
+            "http://",
+            "https://"
+          ],
+          "mustMatch": "\"^(https?:\\/\\/)?(\\d{1,3}\\.){3}\\d{1,3}$\""
+        }
+      ],
+      "presets": {
+        "method": "PUT",
+        "restUrl": "${deviceAddress}/api/v2/robot/capabilities/BasicControlCapability",
+        "body": "{\"action\": \"${actionType}\"}"
+      }
+    },
+    {
+      "name": "manualControl",
+      "actionModelName": "GridActionHTTP",
+      "customValues": [
+        {
+          "name": "actionType",
+          "type": "select",
+          "values": [
+            {
+              "label": "enableManualControl",
+              "value": "{\"action\":\"enable\"}"
+            },
+            {
+              "label": "moveForwards",
+              "value": "{\"action\":\"move\",\"movementCommand\":\"forward\"}"
+            },
+            {
+              "label": "moveBackwards",
+              "value": "{\"action\":\"move\",\"movementCommand\":\"backward\"}"
+            },
+            {
+              "label": "rotateClockwise",
+              "value": "{\"action\":\"move\",\"movementCommand\":\"rotate_clockwise\"}"
+            },
+            {
+              "label": "rotateCounterclockwise",
+              "value": "{\"action\":\"move\",\"movementCommand\":\"rotate_counterclockwise\"}"
+            },
+            {
+              "label": "disableManualControl",
+              "value": "{\"action\":\"disable\"}"
+            }
+          ]
+        },
+        {
+          "name": "deviceAddress",
+          "type": "text",
+          "placeholder": "like <192.168.0.50> or <https://192.168.0.50>",
+          "autoStartWith": [
+            "http://",
+            "https://"
+          ],
+          "mustMatch": "\"^(https?:\\/\\/)?(\\d{1,3}\\.){3}\\d{1,3}$\""
+        }
+      ],
+      "presets": {
+        "method": "PUT",
+        "restUrl": "${deviceAddress}/api/v2/robot/capabilities/ManualControlCapability",
+        "body": "${actionType}"
+      }
+    },
+    {
+      "name": "locateRobot",
+      "actionModelName": "GridActionHTTP",
+      "customValues": [
+        {
+          "name": "deviceAddress",
+          "type": "text",
+          "placeholder": "like <192.168.0.50> or <https://192.168.0.50>",
+          "autoStartWith": [
+            "http://",
+            "https://"
+          ],
+          "mustMatch": "\"^(https?:\\/\\/)?(\\d{1,3}\\.){3}\\d{1,3}$\""
+        }
+      ],
+      "presets": {
+        "method": "PUT",
+        "restUrl": "${deviceAddress}/api/v2/robot/capabilities/LocateCapability",
+        "body": "{\"action\":\"locate\"}"
+      }
+    }
+  ]
+}
