@@ -1,4 +1,6 @@
 {
+  "_comment": "skip: true, currently not working, because Valetudo doesn't support CORS headers",
+  "skip": true,
   "id": "Valetudo_Vacuum_Robot_API_v2",
   "name": "Valetudo Vacuum Robot",
   "actions": [
