@@ -1,0 +1,13 @@
+{
+  "name": {
+    "en": "Sequoia 15"
+  },
+  "author": "CC-By NC-SA by OpenAAC",
+  "website": "https://www.openboardformat.org/examples",
+  "description": {
+    "en": "Sequoia-15 is a branching vocabulary set, built in an effort to support communication organized by pragmatic function but with the goal of encouraging expansion into generalized and core-oriented vocabulary."
+  },
+  "tags": ["OpenAAC", "5x3"],
+  "wordPrediction": false,
+  "generateGlobalGrid": true
+}

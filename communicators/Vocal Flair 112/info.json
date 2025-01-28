@@ -1,0 +1,13 @@
+{
+  "name": {
+    "en": "Vocal Flair 112"
+  },
+  "author": "CC-By NC-SA by OpenAAC",
+  "website": "https://www.openboardformat.org/examples",
+  "description": {
+    "en": "Vocal Flair 112 is a core, flat-but-dynamic-styled vocabulary set with up to 112 buttons per board, including a keyboard on the main board."
+  },
+  "tags": ["OpenAAC", "14x8"],
+  "wordPrediction": false,
+  "generateGlobalGrid": true
+}

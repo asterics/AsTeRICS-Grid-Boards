@@ -1,0 +1,13 @@
+{
+  "name": {
+    "en": "Quick Core 24"
+  },
+  "author": "CC-By NC-SA by OpenAAC",
+  "website": "https://www.openboardformat.org/examples",
+  "description": {
+    "en": "Quick Core 24 is a core, motor-planning based vocabulary set with up to 24 buttons per board."
+  },
+  "tags": ["OpenAAC", "6x4"],
+  "wordPrediction": false,
+  "generateGlobalGrid": true
+}
