@@ -1,0 +1,13 @@
+{
+  "name": {
+    "en": "Quick Core 84"
+  },
+  "author": "CC-By NC-SA by OpenAAC",
+  "website": "https://www.openboardformat.org/examples",
+  "description": {
+    "en": "Quick Core 84 is a core, motor-planning based vocabulary set with up to 84 buttons per board."
+  },
+  "tags": ["OpenAAC", "12x7"],
+  "wordPrediction": false,
+  "generateGlobalGrid": true
+}
