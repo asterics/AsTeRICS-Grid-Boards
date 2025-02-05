@@ -1,13 +1,13 @@
 {
-  "localControl": "Local control",
-  "actionType": "Action type",
-  "on": "On",
-  "off": "Off",
-  "toggle": "Toggle",
-  "deviceAddress": "Device address",
-  "timerSeconds": "Timer (seconds)",
-  "cloudControl": "Cloud control",
-  "cloudAddress": "Cloud address",
-  "deviceId": "Device ID",
-  "authCloudKey": "Authorization cloud key"
+  "localControl": "Lokale Steuerung",
+  "actionType": "Cloud-Steuerung",
+  "on": "Ein",
+  "off": "Aus",
+  "toggle": "Umschalten",
+  "deviceAddress": "Geräte-Adresse",
+  "timerSeconds": "Timer (Sekunden)",
+  "cloudControl": "Cloud-Steuerung",
+  "cloudAddress": "Cloud-Adresse",
+  "deviceId": "Geräte-ID",
+  "authCloudKey": "Cloud-Key (Authentifizierung)"
 }
