@@ -68,18 +68,13 @@
           "name": "authKey",
           "type": "text",
           "placeholder": "like <abcdef1234ABC5678...>"
-        },
-        {
-          "name": "timerSeconds",
-          "type": "number",
-          "min": 0
         }
       ],
       "presets": {
         "method": "POST",
         "restUrl": "${cloudAddress}/device/relay/control",
         "contentType": "application/x-www-form-urlencoded",
-        "body": "channel=0&turn=${actionType}&timer=${timerSeconds}&auth_key=${authKey}&id=${deviceId}"
+        "body": "channel=0&turn=${actionType}&auth_key=${authKey}&id=${deviceId}"
       }
     }
   ]
