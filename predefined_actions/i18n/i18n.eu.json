@@ -9,5 +9,6 @@
   "cloudControl": "Cloud control",
   "cloudAddress": "Cloud address",
   "deviceId": "Device ID",
-  "authCloudKey": "Authorization cloud key"
+  "authCloudKey": "Authorization cloud key",
+  "channel": "Channel"
 }
