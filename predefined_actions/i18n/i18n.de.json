@@ -10,5 +10,5 @@
   "cloudAddress": "Cloud-Adresse",
   "deviceId": "Geräte-ID",
   "authCloudKey": "Cloud-Key (Authentifizierung)",
-  "channel": "Channel"
+  "channel": "Kanal"
 }
