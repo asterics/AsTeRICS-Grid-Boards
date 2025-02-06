@@ -4,7 +4,7 @@ This repository holds configurations used by [AsTeRICS Grid](https://github.com/
 These are the most important files and folders of this repository:
 * `boards`: contains single boards about specific topics
 * `communicators`: contains self-contained communicators (shown by default on the import page for new users in AsTeRICS Grid)
-* `predefined_actions`: contains information about [Predefined actions](TODO)
+* `predefined_actions`: contains information about [Predefined actions](https://github.com/asterics/AsTeRICS-Grid/blob/master/docs/documentation_user/05_actions.md#predefined-actions)
 * `live_metadata.json`: contains metadata about all `boards` and `communicators`, used by AsTeRICS Grid to retrieve metadata about all existing configurations. The file `live_metadata_beta.json` contains the same content but is used by AsTeRICS Grid "latest" and "beta" releases.
 * `live_predefined_actions.json`: contains metadata about all predefined actions stored in folder `predefined_actions`, which is used by AsTeRICS Grid. The file `live_predefined_actions_beta.json` contains the same content but is used by AsTeRICS Grid "latest" and "beta" releases.
 
@@ -90,7 +90,7 @@ The file info.json may contain the following properties in JSON format:
 
 # Predefined actions
 
-The folder `predefined_actions` contains metadata about [Predefined actions](TODO) which make the configuration of complex actions (e.g. HTTP requests to an API) more user-friendly. Each subfolder of `predefined_actions` contains information about a specific device, or more general an `action group`. All data from these folders is merged to `live_predefined_actions.json` for the use within AsTeRICS Grid.
+The folder `predefined_actions` contains metadata about [Predefined actions](https://github.com/asterics/AsTeRICS-Grid/blob/master/docs/documentation_user/05_actions.md#predefined-actions) which make the configuration of complex actions (e.g. HTTP requests to an API) more user-friendly. Each subfolder of `predefined_actions` contains information about a specific device, or more general an `action group`. All data from these folders is merged to `live_predefined_actions.json` for the use within AsTeRICS Grid.
 
 ## Structure of a predefined action
 
