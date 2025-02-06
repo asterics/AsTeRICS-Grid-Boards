@@ -1,15 +1,21 @@
 # AsTeRICS-Grid-Boards
-This repository holds default configurations used by [AsTeRICS Grid](https://github.com/asterics/AsTeRICS-Grid). Data from the `master` branch is made available via [GitHub pages](https://asterics.github.io/AsTeRICS-Grid-Boards/live_metadata.json), which is used by the app to download default configurations.
+This repository holds configurations used by [AsTeRICS Grid](https://github.com/asterics/AsTeRICS-Grid). Data from the `main` branch is made available via [GitHub pages](https://asterics.github.io/AsTeRICS-Grid-Boards/live_metadata.json), which is used by the app to download configurations.
 
 These are the most important files and folders of this repository:
 * `boards`: contains single boards about specific topics
-* `communicators`: contains self-contained communicators (shown by default at the import page for new users in AsTeRICS Grid)
-* `live_metadata.json`: contains metadata about all `boards` and `communicators`, used by AsTeRICS Grid to retrieve metadata about all existing configurations.
+* `communicators`: contains self-contained communicators (shown by default on the import page for new users in AsTeRICS Grid)
+* `predefined_actions`: contains information about [Predefined actions](TODO)
+* `live_metadata.json`: contains metadata about all `boards` and `communicators`, used by AsTeRICS Grid to retrieve metadata about all existing configurations. The file `live_metadata_beta.json` contains the same content but is used by AsTeRICS Grid "latest" and "beta" releases.
+* `live_predefined_actions.json`: contains metadata about all predefined actions stored in folder `predefined_actions`, which is used by AsTeRICS Grid. The file `live_predefined_actions_beta.json` contains the same content but is used by AsTeRICS Grid "latest" and "beta" releases.
+
+# Board sets
+
+This section section describes everything related to board sets located in `boards` and `communicators`.
 
 ## Adding and altering configurations
 The following sections describe step-by-step how to add or alter board configurations from this repository in order to use them in AsTeRICS Grid afterwards.
 
-In general most changes require to run `npm run generate` after the changes have been applied. If you're editing the files locally and know how to run it, please do it before creating a pull request. If you're editing files directly on GitHub and creating a pull request, a maintainer of this repository will run it for you. Before running `npm run generate` the first time, you need to run `npm install`.
+In general most changes require to run `npm run generate` after the changes have been applied. If you're editing the files locally and know how to run it, please do it before creating a pull request. If you're editing files directly on GitHub and creating a pull request, a maintainer of this repository will run it for you. Before running `npm run generate` the first time, you need to run `npm install`. To only generate files for "beta" and "latest" releases, run `npm run generate-beta`.
 
 ### Change metadata (description) of existing configurations
 1. find the folder containing the configuration in [boards](https://github.com/asterics/AsTeRICS-Grid-Boards/tree/main/boards) or [communicators](https://github.com/asterics/AsTeRICS-Grid-Boards/tree/main/communicators). You can also go to the import page in AsTeRICS Grid, show the details of the configuration and click on "Edit on GitHub" to find the folder.
@@ -82,10 +88,40 @@ The file info.json may contain the following properties in JSON format:
 * `tags`: an array of tags, indicating the properties of the configuration (e.g. topic and grid size, example: `["BASIC", "4x5", "MEDICAL"]`)
 * `generateGlobalGrid`: if `true` a default global grid is generated while importing this configuration
 
+# Predefined actions
+
+The folder `predefined_actions` contains metadata about [Predefined actions](TODO) which make the configuration of complex actions (e.g. HTTP requests to an API) more user-friendly. Each subfolder of `predefined_actions` contains information about a specific device, or more general an `action group`. All data from these folders is merged to `live_predefined_actions.json` for the use within AsTeRICS Grid.
+
+## Structure of a predefined action
+
+This is the JSON structure of a predefined action group, located in a subfolder of `predefined_actions`:
+* `id`: a unique ID of the device or action group, e.g. a specific device with a specific API version like `Shelly_Plus_Plug_S_Gen1_HTTP_API`
+* `name`: the display name for this action group 
+* `actions`: an array of actions possible for this action group. Each action has these properties:
+   * `name`: a name for the action, can be translated (see below) 
+   * `actionModelName`: the model name of an action which should be executed in the background, for most actions integrating REST APIs this will be `GridActionHTTP`. See all models with prefix `GridAction` in [folder model of AsTeRICS Grid](https://github.com/asterics/AsTeRICS-Grid/tree/master/src/js/model).
+   * `customValues`: an array of custom values, which can be defined by the user in the UI. A custom value has these properties:
+      * `name`: the name of the custom value, shown to the user, can be translated (see below)
+      * `type`:  the type of the custom value, can be `text`, `number` or `select`
+      * `values`: only for type `select`. Contains an array of the selectable values. Can be either (translatable) strings which are directly used for the resulting background action or objects with these properties:
+         * `label`: translatable string shown to the user
+         * `value`: value actually used for the background action
+      * `placeholder` (optional, only for type `text` and `number`): a placeholder shown in the UI
+      * `min`, `max` and `step` (optional, only for type `number`): minimum, maximum and step values for the number input
+      * `autoStartWith` (optional, only for type `text`): array of string values the `text` value must start with. The string given by the user is auto-prefixed with first value of the array. So if `autoStartWith` is `["http://", "https://"]` and the user inputs `192.168.0.10`, this value is automatically changed to `http://192.168.0.10` while if the user inputs `https://192.168.0.10` it's also accepted and not changed.
+      * `mustMatch` (optional, only for type `text`): a Javascript regex the string given by the user must match 
+  * `presets`: preset values which should be set to the properties of the given `actionModelName`. For instance for `GridActionHTTP` there could be the preset `{"method": "POST"}` to specify that a POST request should be used (without any user input). It's also possible to use placeholders in the form of [Javascript template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals), for instance there could be the preset value `"restUrl": "${httpUrl}/somePath/0?action=${actionType}"` where `${httpUrl}` and `{actionType}` will be replaced by the `customValues` with the names `httpUrl` and `actionType`, defined above and specified by the user via the UI.
+
+## Translations
+
+The `name` properties of the JSON defining a predefined action group (see above) can be translated via crowdin. Each run of `npm run generate` automatically generates the file `predefined_actions/i18n/i18n.en.json` which then must be manually translated to the English values. Afterwards they can be translated into other languages in this [crowdin project](https://crowdin.com/project/asterics-grid-boards).
+
 # Acknowledgements
 This repository was created within the [netidee project funding for AsTeRICS Grid](https://www.netidee.at/asterics-grid), Call 18.
 
 <img src="https://raw.githubusercontent.com/asterics/AsTeRICS-Grid-Boards/refs/heads/main/netidee-logo.svg" width="250"/>
+
+Thanks to [crowdin](https://crowdin.com/project/asterics-grid-boards) for providing a free open source license.
 
 
 

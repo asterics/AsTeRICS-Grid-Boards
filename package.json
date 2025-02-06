@@ -4,7 +4,8 @@
   "description": "Holds default configurations used by AsTeRICS Grid",
   "main": "index.js",
   "scripts": {
-    "generate": "node scripts/generateMetadata.js",
+    "generate": "node scripts/generateMetadata.js && node scripts/generatePredefinedActions.js && node scripts/generateMetadata.js beta && node scripts/generatePredefinedActions.js beta",
+    "generate-beta": "node scripts/generateMetadata.js beta && node scripts/generatePredefinedActions.js beta",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
