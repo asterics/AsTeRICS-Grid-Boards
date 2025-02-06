@@ -1,0 +1,14 @@
+{
+  "localControl": "Local control",
+  "actionType": "Action type",
+  "on": "On",
+  "off": "Off",
+  "toggle": "Toggle",
+  "deviceAddress": "Device address",
+  "timerSeconds": "Timer (seconds)",
+  "cloudControl": "Cloud control",
+  "cloudAddress": "Cloud address",
+  "deviceId": "Device ID",
+  "authCloudKey": "Authorization cloud key",
+  "channel": "Channel"
+}

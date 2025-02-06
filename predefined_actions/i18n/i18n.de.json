@@ -1,0 +1,14 @@
+{
+  "localControl": "Lokale Steuerung",
+  "actionType": "Cloud-Steuerung",
+  "on": "Ein",
+  "off": "Aus",
+  "toggle": "Umschalten",
+  "deviceAddress": "Geräte-Adresse",
+  "timerSeconds": "Timer (Sekunden)",
+  "cloudControl": "Cloud-Steuerung",
+  "cloudAddress": "Cloud-Adresse",
+  "deviceId": "Geräte-ID",
+  "authCloudKey": "Cloud-Key (Authentifizierung)",
+  "channel": "Kanal"
+}
