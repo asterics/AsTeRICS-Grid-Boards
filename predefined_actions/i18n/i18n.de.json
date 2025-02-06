@@ -9,5 +9,6 @@
   "cloudControl": "Cloud-Steuerung",
   "cloudAddress": "Cloud-Adresse",
   "deviceId": "Geräte-ID",
-  "authCloudKey": "Cloud-Key (Authentifizierung)"
+  "authCloudKey": "Cloud-Key (Authentifizierung)",
+  "channel": "Channel"
 }
