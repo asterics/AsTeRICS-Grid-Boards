@@ -18,7 +18,7 @@
         {
           "name": "cloudAddress",
           "type": "text",
-          "placeholder": "like <shelly-xyz-eu.shelly.cloud>",
+          "placeholder": "likeShellyCloudUrl",
           "autoStartWith": [
             "https://"
           ],
@@ -27,12 +27,12 @@
         {
           "name": "deviceId",
           "type": "text",
-          "placeholder": "like <a1b2c3d4e5c6>"
+          "placeholder": "likeShellyDeviceId"
         },
         {
           "name": "authCloudKey",
           "type": "text",
-          "placeholder": "like <abcdef1234ABC5678...>"
+          "placeholder": "likeShellyAuthKey"
         }
       ],
       "presets": {
@@ -58,7 +58,7 @@
         {
           "name": "deviceAddress",
           "type": "text",
-          "placeholder": "like <192.168.0.50> or <https://192.168.0.50>",
+          "placeholder": "likeLocalAddress",
           "autoStartWith": [
             "http://",
             "https://"

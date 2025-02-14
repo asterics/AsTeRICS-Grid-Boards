@@ -1,6 +1,6 @@
 {
-  "id": "Shelly_2PM_Gen1_HTTP_API",
-  "name": "Shelly 2PM",
+  "id": "Shelly_Plus_Plug_S_Gen1_HTTP_API",
+  "name": "Shelly Plug S",
   "actions": [
     {
       "name": "cloudControl",
@@ -16,15 +16,9 @@
           ]
         },
         {
-          "name": "channel",
-          "type": "number",
-          "min": 0,
-          "placeholder": "<0> or <1>"
-        },
-        {
           "name": "cloudAddress",
           "type": "text",
-          "placeholder": "like <shelly-xyz-eu.shelly.cloud>",
+          "placeholder": "likeShellyCloudUrl",
           "autoStartWith": [
             "https://"
           ],
@@ -33,19 +27,19 @@
         {
           "name": "deviceId",
           "type": "text",
-          "placeholder": "like <a1b2c3d4e5c6>"
+          "placeholder": "likeShellyDeviceId"
         },
         {
           "name": "authCloudKey",
           "type": "text",
-          "placeholder": "like <abcdef1234ABC5678...>"
+          "placeholder": "likeShellyAuthKey"
         }
       ],
       "presets": {
         "method": "POST",
         "restUrl": "${cloudAddress}/device/relay/control",
         "contentType": "application/x-www-form-urlencoded",
-        "body": "channel=${channel}&turn=${actionType}&auth_key=${authCloudKey}&id=${deviceId}"
+        "body": "channel=0&turn=${actionType}&auth_key=${authCloudKey}&id=${deviceId}"
       }
     },
     {
@@ -64,7 +58,7 @@
         {
           "name": "deviceAddress",
           "type": "text",
-          "placeholder": "like <192.168.0.50> or <https://192.168.0.50>",
+          "placeholder": "likeLocalAddress",
           "autoStartWith": [
             "http://",
             "https://"
@@ -75,17 +69,11 @@
           "name": "timerSeconds",
           "type": "number",
           "min": 0
-        },
-        {
-          "name": "channel",
-          "type": "number",
-          "min": 0,
-          "placeholder": "<0> or <1>"
         }
       ],
       "presets": {
         "method": "GET",
-        "restUrl": "${deviceAddress}/relay/${channel}?turn=${actionType}&timer=${timerSeconds}",
+        "restUrl": "${deviceAddress}/relay/0?turn=${actionType}&timer=${timerSeconds}",
         "noCorsMode": true
       }
     }
