@@ -1,0 +1,11 @@
+{
+  "name": "Live elements demo",
+  "author": "Benjamin Klaus",
+  "website": "https://github.com/klues",
+  "languages": ["en"],
+  "description": {
+    "en": "This configuration provides demos for showing the possibilities regarding live elements within AsTeRICS Grid"
+  },
+  "wordPrediction": false,
+  "tags": ["DEMO"]
+}
