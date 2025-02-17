@@ -6,8 +6,12 @@ const BASE_FOLDER_BOARDS = "boards"
 const startPathCommunicators = path.join(__dirname, "..", BASE_FOLDER_COMM);
 const startPathBoards = path.join(__dirname, "..", BASE_FOLDER_BOARDS);
 const INFO_FILENAME = "info.json";
-const OUTPUT_FILENAME = process.argv[2] && process.argv[2] === "beta" ? "live_metadata_beta.json" : "live_metadata.json";
+const IS_BETA = process.argv[2] && process.argv[2] === "beta";
+const IS_PROD = !IS_BETA;
+const OUTPUT_FILENAME = IS_BETA ? "live_metadata_beta.json" : "live_metadata.json";
 const THUMBNAIL_FILENAME = "thumbnail";
+const READABLE_FOLDER = "live_readable";
+const READABLE_SUFFIX = ".readable.json";
 
 let rootFoldersCommunicators = fs.readdirSync(startPathCommunicators, {withFileTypes: true}).filter(e => e.isDirectory());
 let rootFoldersBoards = fs.readdirSync(startPathBoards, {withFileTypes: true}).filter(e => e.isDirectory());
@@ -30,6 +34,7 @@ async function main() {
     }
     metadataObjects = metadataObjects.filter(o => !!o);
     fs.writeFileSync(path.join(__dirname, "..", OUTPUT_FILENAME), JSON.stringify(metadataObjects));
+    fs.writeFileSync(path.join(__dirname, "..", READABLE_FOLDER, OUTPUT_FILENAME + READABLE_SUFFIX), JSON.stringify(metadataObjects, null, 2));
     console.log(`Successfully written ${metadataObjects.length} elements to ${OUTPUT_FILENAME}!`)
 }
 
@@ -60,6 +65,9 @@ async function folderToMetadata(folder, options = {}) {
     if (infoFile) {
         let infoContentString = fs.readFileSync(path.join(infoFile.path, infoFile.name), 'utf-8');
         infoContent = JSON.parse(infoContentString);
+    }
+    if (infoContent.skip || (infoContent.skipProd && IS_PROD)) {
+        return null;
     }
     Object.assign(infoContent, options.defaultProps);
     if (grdFiles.length > 1) {

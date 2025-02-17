@@ -217,6 +217,7 @@
     "url": "communicators/Communication in hospital - Dachverband AT/Communication_hospital_Dachverband_AT.grd.json"
   },
   {
+    "skipProd": true,
     "name": {
       "en": "CommuniKate 20"
     },
@@ -581,6 +582,7 @@
     "url": "communicators/Grammar demos/grammar-demos.grd.json"
   },
   {
+    "skipProd": true,
     "name": "Live elements demo",
     "author": "Benjamin Klaus",
     "website": "https://github.com/klues",
@@ -606,6 +608,7 @@
     "url": "communicators/Live element demos/live-element-demos.grd.json"
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Quick Core 112"
     },
@@ -636,6 +639,7 @@
     ]
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Quick Core 24"
     },
@@ -666,6 +670,7 @@
     ]
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Quick Core 40"
     },
@@ -696,6 +701,7 @@
     ]
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Quick Core 60"
     },
@@ -726,6 +732,7 @@
     ]
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Quick Core 84"
     },
@@ -782,6 +789,7 @@
     "url": "communicators/Quick_Say20/Quick_Say_20_EN.grd.json"
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Sequoia 15"
     },
@@ -812,6 +820,7 @@
     ]
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Vocal Flair 112"
     },
@@ -842,6 +851,7 @@
     ]
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Vocal Flair 24"
     },
@@ -872,6 +882,7 @@
     ]
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Vocal Flair 40"
     },
@@ -902,6 +913,7 @@
     ]
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Vocal Flair 60"
     },
@@ -932,6 +944,7 @@
     ]
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Vocal Flair 84"
     },
@@ -962,6 +975,7 @@
     ]
   },
   {
+    "skipProd": true,
     "name": {
       "en": "Vocal Flair 84 - With Keyboard"
     },

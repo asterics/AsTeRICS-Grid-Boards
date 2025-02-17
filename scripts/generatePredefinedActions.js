@@ -5,6 +5,8 @@ const BASE_FOLDER = "predefined_mappings"
 const baseFolderPath = path.join(__dirname, "..", BASE_FOLDER);
 const i18nPath = path.join(baseFolderPath, "i18n");
 const I18N_FILENAME = "i18n.en.json";
+const READABLE_FOLDER = "live_readable";
+const READABLE_SUFFIX = ".readable.json";
 
 let i18nContent = fs.readFileSync(path.join(i18nPath, I18N_FILENAME), 'utf-8');
 if (i18nContent) {
@@ -86,6 +88,7 @@ async function processData(startPath, outputFilename) {
     }
 
     fs.writeFileSync(path.join(__dirname, "..", outputFilename), JSON.stringify(jsonObjects));
+    fs.writeFileSync(path.join(__dirname, "..", READABLE_FOLDER, outputFilename + READABLE_SUFFIX), JSON.stringify(jsonObjects, null, 2));
     console.log(`Successfully written ${jsonObjects.length} elements to ${outputFilename}!`)
     return i18nStrings;
 }
