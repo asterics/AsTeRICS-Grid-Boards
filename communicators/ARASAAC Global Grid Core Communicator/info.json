@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en": "ARASAAC Global Grid Core Communicator",
+    "es": "ARASAAC Comunicador Global Grid Core"
+  },
+  "author": "ARASAAC",
+  "website": "https://arasaac.org/",
+  "description": {
+    "en": "Dynamic communicator, developed by the ARASAAC team, with a robust vocabulary. Communicator based on the global grid where the core vocabulary is arranged on the left side, so that it appears on all the communicator grids, and a grid with peripheral vocabulary distributed by categories.",
+    "es": "Comunicador dinámico, elaborado por el equipo de ARASAAC, con vocabulario robusto. Comunicador planteado desde el tablero global donde se dispone el vocabulario esencial en el lado izquierdo, para que aparezca en todos los tableros del comunicador, y un tablero con vocabulario periférico distribuido por categorías."
+  },
+  "wordPrediction": true,
+  "tags": ["ARASAAC", "COMMUNICATOR"]
+}

@@ -1,5 +1,69 @@
 [
   {
+    "name": {
+      "en": "ARASAAC Global Grid Core Communicator"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "description": {
+      "en": "Dynamic communicator, developed by the ARASAAC team, with a robust vocabulary. Communicator based on the global grid where the core vocabulary is arranged on the left side, so that it appears on all the communicator grids, and a grid with peripheral vocabulary distributed by categories."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/ARASAAC Global Grid Core Communicator/1.jpg",
+      "communicators/ARASAAC Global Grid Core Communicator/2.jpg",
+      "communicators/ARASAAC Global Grid Core Communicator/3.jpg",
+      "communicators/ARASAAC Global Grid Core Communicator/4.jpg",
+      "communicators/ARASAAC Global Grid Core Communicator/5.jpg"
+    ],
+    "thumbnail": "communicators/ARASAAC Global Grid Core Communicator/thumbnail.jpg",
+    "priority": {
+      "en": 10
+    },
+    "url": "communicators/ARASAAC Global Grid Core Communicator/en/ARASAAC_Global_Grid_Core_Communicator_EN.grd.json",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "name": {
+      "en": "ARASAAC Global Grid Core Communicator",
+      "es": "ARASAAC Comunicador Global Grid Core"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "description": {
+      "en": "Dynamic communicator, developed by the ARASAAC team, with a robust vocabulary. Communicator based on the global grid where the core vocabulary is arranged on the left side, so that it appears on all the communicator grids, and a grid with peripheral vocabulary distributed by categories.",
+      "es": "Comunicador dinámico, elaborado por el equipo de ARASAAC, con vocabulario robusto. Comunicador planteado desde el tablero global donde se dispone el vocabulario esencial en el lado izquierdo, para que aparezca en todos los tableros del comunicador, y un tablero con vocabulario periférico distribuido por categorías."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/ARASAAC Global Grid Core Communicator/es/1.jpg",
+      "communicators/ARASAAC Global Grid Core Communicator/es/2.jpg",
+      "communicators/ARASAAC Global Grid Core Communicator/es/3.jpg",
+      "communicators/ARASAAC Global Grid Core Communicator/es/4.jpg",
+      "communicators/ARASAAC Global Grid Core Communicator/es/5.jpg"
+    ],
+    "thumbnail": "communicators/ARASAAC Global Grid Core Communicator/es/thumbnail.jpg",
+    "priority": {
+      "es": 10
+    },
+    "url": "communicators/ARASAAC Global Grid Core Communicator/es/ARASAAC_Global_Grid_Core_Communicator_ES.grd.json",
+    "languages": [
+      "es"
+    ]
+  },
+  {
     "name": "AsTeRICS Grid default",
     "author": "AsTeRICS Foundation / UAS Technikum Wien",
     "website": "https://www.asterics-foundation.org/1270-2/",
@@ -383,9 +447,6 @@
       "communicators/Global-Core Communicator ARASAAC/6.jpg"
     ],
     "thumbnail": "communicators/Global-Core Communicator ARASAAC/thumbnail.jpg",
-    "priority": {
-      "en": 10
-    },
     "url": "communicators/Global-Core Communicator ARASAAC/en/Global-Core_Communicator_ARASAAC_EN.grd.json",
     "languages": [
       "en"
@@ -417,9 +478,6 @@
       "communicators/Global-Core Communicator ARASAAC/es/6.jpg"
     ],
     "thumbnail": "communicators/Global-Core Communicator ARASAAC/es/thumbnail.jpg",
-    "priority": {
-      "es": 10
-    },
     "url": "communicators/Global-Core Communicator ARASAAC/es/Comunicador_Global-Core_ARASAAC_ES.grd.json",
     "languages": [
       "es"
