@@ -1,0 +1,896 @@
+[
+  {
+    "name": "AsTeRICS Grid default",
+    "author": "AsTeRICS Foundation / UAS Technikum Wien",
+    "website": "https://www.asterics-foundation.org/1270-2/",
+    "languages": [
+      "ar",
+      "bn",
+      "bg",
+      "zh",
+      "en",
+      "fr",
+      "de",
+      "he",
+      "hi",
+      "id",
+      "it",
+      "ja",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sr",
+      "es",
+      "tr",
+      "uk",
+      "ur"
+    ],
+    "description": {
+      "en": "Demo configuration containing examples for basic communication, a YouTube player, webradio player, different keyboards and environmental control.",
+      "de": "Demo Konfiguration für einfache Kommunikation, einen YouTube-Player, Webradio-Player, verschiedene Keyboard-Layouts und Umgebungssteuerung."
+    },
+    "priority": 5,
+    "wordPrediction": true,
+    "tags": [
+      "BASIC",
+      "4x5"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/AsTeRICS Grid default/1.jpg",
+      "communicators/AsTeRICS Grid default/2.jpg",
+      "communicators/AsTeRICS Grid default/3.jpg",
+      "communicators/AsTeRICS Grid default/4.jpg",
+      "communicators/AsTeRICS Grid default/5.jpg",
+      "communicators/AsTeRICS Grid default/6.jpg"
+    ],
+    "thumbnail": "communicators/AsTeRICS Grid default/thumbnail.jpg",
+    "url": "communicators/AsTeRICS Grid default/default.grd.json"
+  },
+  {
+    "name": "CACE-UTAC 2021 - ARASAAC",
+    "author": "UTAC (Unitat de Tècniques Augmentatives de Comunicació)",
+    "website": "https://www.utac.cat/",
+    "description": {
+      "en": "The CACE-UTAC is a pictographic vocabulary of more than 800 words, organised into semantic categories. Get <a target=\"_blank\" href=\"https://aulaabierta.arasaac.org/en/vocabulary-utac-cace\">more information about CACE-UTAC on ARASAAC aula abierta</a>.",
+      "ca": "El CACE-UTAC és un vocabulari pictogràfic de més de 800 paraules, organitzat en categories semàntiques. Per a més informació al respecte podeu consultar aquest <a target=\"_blank\" href=\"https://www.dropbox.com/s/rztknn83bbgna49/Poster%20CACE%20-%20Handout.pdf?dl=0\">pòster en format PDF a la pàgina de la UTAC</a>."
+    },
+    "wordPrediction": false,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR",
+      "4x8"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/CACE-UTAC 2021 - ARASAAC/1.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/2.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/3.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/4.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/5.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/CACE-UTAC 2021 - ARASAAC/thumbnail.jpg",
+    "url": "communicators/CACE-UTAC 2021 - ARASAAC/ca/CACE-UTAC_2021_CA.grd.json",
+    "languages": [
+      "ca"
+    ]
+  },
+  {
+    "name": "CACE-UTAC 2021 - ARASAAC",
+    "author": "UTAC (Unitat de Tècniques Augmentatives de Comunicació)",
+    "website": "https://www.utac.cat/",
+    "description": {
+      "en": "The CACE-UTAC is a pictographic vocabulary of more than 800 words, organised into semantic categories. Get <a target=\"_blank\" href=\"https://aulaabierta.arasaac.org/en/vocabulary-utac-cace\">more information about CACE-UTAC on ARASAAC aula abierta</a>.",
+      "es": "El CACE-UTAC es un vocabulario pictográfico de más de 800 palabras, organizado en categorías semánticas. Para más información al respecto se puede consultar la <a target=\"_blank\" href=\"https://aulaabierta.arasaac.org/vocabulario-utac-cace\">página sobre el vocabulario UTAC-CACE en el Aula Abierta de ARASAAC</a>."
+    },
+    "wordPrediction": false,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR",
+      "4x8"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/CACE-UTAC 2021 - ARASAAC/1.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/2.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/3.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/4.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/5.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/CACE-UTAC 2021 - ARASAAC/thumbnail.jpg",
+    "url": "communicators/CACE-UTAC 2021 - ARASAAC/es/CACE-UTAC_2021_ES.grd.json",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "name": "CACE-UTAC 2021 ST-G - ARASAAC",
+    "author": "UTAC (Unitat de Tècniques Augmentatives de Comunicació)",
+    "website": "https://www.utac.cat/",
+    "description": {
+      "en": "The CACE-UTAC is a pictographic vocabulary of more than 800 words, organised into semantic categories. The ST-G format is organised in a way that provides more support for sentence structure. Get <a target=\"_blank\" href=\"https://aulaabierta.arasaac.org/en/vocabulary-utac-cace\">more information about CACE-UTAC on ARASAAC aula abierta</a>.",
+      "ca": "El CACE-UTAC és un vocabulari pictogràfic de més de 800 paraules, organitzat en categories semàntiques. El format ST-G compta amb una organització que ofereix més suport a l’estructuració de la frase. Per a més informació al respecte podeu consultar aquest <a target=\"_blank\" href=\"https://www.dropbox.com/s/rztknn83bbgna49/Poster%20CACE%20-%20Handout.pdf?dl=0\">pòster en format PDF a la pàgina de la UTAC</a>."
+    },
+    "wordPrediction": false,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR",
+      "6x9"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/1.jpg",
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/2.jpg",
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/3.jpg",
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/4.jpg",
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/5.jpg",
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/CACE-UTAC 2021 ST-G - ARASAAC/thumbnail.jpg",
+    "url": "communicators/CACE-UTAC 2021 ST-G - ARASAAC/ca/CACE-UTAC_2021_ST-G_CA.grd.json",
+    "languages": [
+      "ca"
+    ]
+  },
+  {
+    "name": "CACE-UTAC 2021 ST-G - ARASAAC",
+    "author": "UTAC (Unitat de Tècniques Augmentatives de Comunicació)",
+    "website": "https://www.utac.cat/",
+    "description": {
+      "en": "The CACE-UTAC is a pictographic vocabulary of more than 800 words, organised into semantic categories. The ST-G format is organised in a way that provides more support for sentence structure. Get <a target=\"_blank\" href=\"https://aulaabierta.arasaac.org/en/vocabulary-utac-cace\">more information about CACE-UTAC on ARASAAC aula abierta</a>.",
+      "es": "El CACE-UTAC es un vocabulario pictográfico de más de 800 palabras, organizado en categorías semánticas. El formato ST-G cuenta con una organización que ofrece mayor apoyo a la estructura de la frase. Para más información al respecto se puede consultar la <a target=\"_blank\" href=\"https://aulaabierta.arasaac.org/vocabulario-utac-cace\">página sobre el vocabulario UTAC-CACE en el Aula Abierta de ARASAAC</a>."
+    },
+    "wordPrediction": false,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR",
+      "6x9"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/1.jpg",
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/2.jpg",
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/3.jpg",
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/4.jpg",
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/5.jpg",
+      "communicators/CACE-UTAC 2021 ST-G - ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/CACE-UTAC 2021 ST-G - ARASAAC/thumbnail.jpg",
+    "url": "communicators/CACE-UTAC 2021 ST-G - ARASAAC/es/CACE-UTAC_2021_ST-G_ES.grd.json",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "name": {
+      "en": "Communication in hospital - Dachverband AT",
+      "de": "Kommunikation in der Klinik - Dachverband AT"
+    },
+    "author": "Dachverband der Wiener Sozialeinrichtungen, AT",
+    "website": "https://dachverband.at/",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "es",
+      "it",
+      "pt",
+      "ru",
+      "tr",
+      "sr",
+      "ar",
+      "ro",
+      "fa",
+      "zh",
+      "hi",
+      "ja",
+      "uk",
+      "pl",
+      "bn",
+      "id",
+      "ur",
+      "he",
+      "bg"
+    ],
+    "description": {
+      "en": "Configuration for communication in the context of hospitals. Developed by \"Dachverband der Wiener Sozialeinrichtungen\" in cooperation with the hospital \"Klinik Floridsdorf\" in Vienna, Austria.",
+      "de": "Konfiguration für Kommunikation im Krankenhaus-Kontext. Entwickelt vom Dachverband der Wiener Sozialeinrichtungen gemeinsam mit der Klinik Floridsdorf in Wien."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "BASIC",
+      "MEDICAL",
+      "HOSPITAL"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Communication in hospital - Dachverband AT/1.jpg",
+      "communicators/Communication in hospital - Dachverband AT/2.jpg",
+      "communicators/Communication in hospital - Dachverband AT/3.jpg",
+      "communicators/Communication in hospital - Dachverband AT/4.jpg",
+      "communicators/Communication in hospital - Dachverband AT/5.jpg"
+    ],
+    "thumbnail": "communicators/Communication in hospital - Dachverband AT/thumbnail.jpg",
+    "url": "communicators/Communication in hospital - Dachverband AT/Communication_hospital_Dachverband_AT.grd.json"
+  },
+  {
+    "name": {
+      "en": "Early Intervention - Wiener Sozialdienste",
+      "de": "Mobile Frühförderung - Wiener Sozialdienste"
+    },
+    "author": "Wiener Sozialdienste, Vienna, AT",
+    "website": "https://www.wienersozialdienste.at/mobile-fruehfoerderung-und-familienbegleitung/",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "es",
+      "sr",
+      "tr",
+      "ar",
+      "it"
+    ],
+    "description": {
+      "en": "Configuration for communication in the context of early intervention. Developed by the team of \"mobile Frühförderung\" (mobile early intervention) at \"Wiener Sozialdienste\" in Vienna, Austria.",
+      "de": "Konfiguration für Kommunikation im Kontext von Frühförderung. Entwickelt vom Team der mobilen Frühförderung der Wiener Sozialdienste in Wien."
+    },
+    "wordPrediction": false,
+    "tags": [
+      "BASIC",
+      "INFANT"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Early Intervention - Wiener Sozialdienste/1.jpg",
+      "communicators/Early Intervention - Wiener Sozialdienste/2.jpg",
+      "communicators/Early Intervention - Wiener Sozialdienste/3.jpg",
+      "communicators/Early Intervention - Wiener Sozialdienste/4.jpg",
+      "communicators/Early Intervention - Wiener Sozialdienste/5.jpg"
+    ],
+    "thumbnail": "communicators/Early Intervention - Wiener Sozialdienste/thumbnail.jpg",
+    "url": "communicators/Early Intervention - Wiener Sozialdienste/Mobile_Fruehfoerderung.grd.json"
+  },
+  {
+    "name": "emptyCommunicator",
+    "languages": [],
+    "description": "emptyConfigToCreateAnything",
+    "tags": [],
+    "translate": true,
+    "priority": 100,
+    "selfContained": true,
+    "images": [
+      "communicators/Empty Communicator/Screenshot_20240528_151503.jpg"
+    ],
+    "thumbnail": "communicators/Empty Communicator/thumbnail.jpg",
+    "url": "communicators/Empty Communicator/empty.grd.json"
+  },
+  {
+    "name": {
+      "en": "Global-Core Communicator ARASAAC"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "description": {
+      "en": "Dynamic communicator, developed by the ARASAAC team, with robust vocabulary, and two communication options combined with each other: communicator with core vocabulary distributed by categories and core vocabulary - essential words communicator.",
+      "ca": "Comunicador dinàmic, elaborat per l'equip d' ARASAAC, amb vocabulari robust i dos opcions de comunicació combinades entre si: comunicador amb vocabulari nucli distribuït per categories i comunicador tipus core vocabulary— paraules essencials."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Global-Core Communicator ARASAAC/1.jpg",
+      "communicators/Global-Core Communicator ARASAAC/2.jpg",
+      "communicators/Global-Core Communicator ARASAAC/3.jpg",
+      "communicators/Global-Core Communicator ARASAAC/4.jpg",
+      "communicators/Global-Core Communicator ARASAAC/5.jpg",
+      "communicators/Global-Core Communicator ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/Global-Core Communicator ARASAAC/thumbnail.jpg",
+    "priority": {
+      "ca": 10
+    },
+    "url": "communicators/Global-Core Communicator ARASAAC/ca/Comunicador_Global-Core_ARASAAC_CA.grd.json",
+    "languages": [
+      "ca"
+    ]
+  },
+  {
+    "name": {
+      "en": "Global-Core Communicator ARASAAC"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "description": {
+      "en": "Dynamic communicator, developed by the ARASAAC team, with robust vocabulary, and two communication options combined with each other: communicator with core vocabulary distributed by categories and core vocabulary - essential words communicator."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Global-Core Communicator ARASAAC/1.jpg",
+      "communicators/Global-Core Communicator ARASAAC/2.jpg",
+      "communicators/Global-Core Communicator ARASAAC/3.jpg",
+      "communicators/Global-Core Communicator ARASAAC/4.jpg",
+      "communicators/Global-Core Communicator ARASAAC/5.jpg",
+      "communicators/Global-Core Communicator ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/Global-Core Communicator ARASAAC/thumbnail.jpg",
+    "url": "communicators/Global-Core Communicator ARASAAC/cs/CZECH_Global-Core Communicator ARASAAC.grd.json",
+    "languages": [
+      "cs"
+    ]
+  },
+  {
+    "name": {
+      "en": "Global-Core Communicator ARASAAC"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "description": {
+      "en": "Dynamic communicator, developed by the ARASAAC team, with robust vocabulary, and two communication options combined with each other: communicator with core vocabulary distributed by categories and core vocabulary - essential words communicator.",
+      "de": "Dynamischer Kommunikator, ausgearbeitet vom ARASAAC-Team, mit robustem Vokabular und zwei Möglichkeiten der Kommunikation, die miteinander kombinierbar sind: Kommunikator mit Kernvokabular aufgeteilt in Kategorien und Kommunikator vom Typ \"Core vocabulary\" - essentielle Wörter."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Global-Core Communicator ARASAAC/1.jpg",
+      "communicators/Global-Core Communicator ARASAAC/2.jpg",
+      "communicators/Global-Core Communicator ARASAAC/3.jpg",
+      "communicators/Global-Core Communicator ARASAAC/4.jpg",
+      "communicators/Global-Core Communicator ARASAAC/5.jpg",
+      "communicators/Global-Core Communicator ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/Global-Core Communicator ARASAAC/thumbnail.jpg",
+    "url": "communicators/Global-Core Communicator ARASAAC/de/Globaler_Kommunikator-Core_ARASAAC_DE.grd.json",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "name": {
+      "en": "Global-Core Communicator ARASAAC"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "description": {
+      "en": "Dynamic communicator, developed by the ARASAAC team, with robust vocabulary, and two communication options combined with each other: communicator with core vocabulary distributed by categories and core vocabulary - essential words communicator."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Global-Core Communicator ARASAAC/1.jpg",
+      "communicators/Global-Core Communicator ARASAAC/2.jpg",
+      "communicators/Global-Core Communicator ARASAAC/3.jpg",
+      "communicators/Global-Core Communicator ARASAAC/4.jpg",
+      "communicators/Global-Core Communicator ARASAAC/5.jpg",
+      "communicators/Global-Core Communicator ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/Global-Core Communicator ARASAAC/thumbnail.jpg",
+    "priority": {
+      "en": 10
+    },
+    "url": "communicators/Global-Core Communicator ARASAAC/en/Global-Core_Communicator_ARASAAC_EN.grd.json",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "name": {
+      "en": "Global-Core Communicator ARASAAC",
+      "es": "Comunicador Global-Core ARASAAC"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "description": {
+      "en": "Dynamic communicator, developed by the ARASAAC team, with robust vocabulary, and two communication options combined with each other: communicator with core vocabulary distributed by categories and core vocabulary - essential words communicator.",
+      "es": "Comunicador dinámico, elaborado por el equipo de ARASAAC, con vocabulario robusto, y dos opciones de comunicación combinadas entre sí: comunicador con vocabulario núcleo distribuido por categorías y comunicador tipo core vocabulary – palabras esenciales."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Global-Core Communicator ARASAAC/es/1.jpg",
+      "communicators/Global-Core Communicator ARASAAC/es/2.jpg",
+      "communicators/Global-Core Communicator ARASAAC/es/3.jpg",
+      "communicators/Global-Core Communicator ARASAAC/es/4.jpg",
+      "communicators/Global-Core Communicator ARASAAC/es/5.jpg",
+      "communicators/Global-Core Communicator ARASAAC/es/6.jpg"
+    ],
+    "thumbnail": "communicators/Global-Core Communicator ARASAAC/es/thumbnail.jpg",
+    "priority": {
+      "es": 10
+    },
+    "url": "communicators/Global-Core Communicator ARASAAC/es/Comunicador_Global-Core_ARASAAC_ES.grd.json",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "name": {
+      "en": "Global-Core Communicator ARASAAC"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "description": {
+      "en": "Dynamic communicator, developed by the ARASAAC team, with robust vocabulary, and two communication options combined with each other: communicator with core vocabulary distributed by categories and core vocabulary - essential words communicator.",
+      "eu": "Komunikatzaile dinamikoa, ARASAACeko taldeak egina, hiztegi sendoarekin, eta elkarren artean konbinatutako bi komunikazio-aukerekin: nukleo-hiztegia duen komunikatzailea, kategorien arabera banatua, eta core vocabulary motako komunikatzailea – funtsezko hitzakin."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Global-Core Communicator ARASAAC/1.jpg",
+      "communicators/Global-Core Communicator ARASAAC/2.jpg",
+      "communicators/Global-Core Communicator ARASAAC/3.jpg",
+      "communicators/Global-Core Communicator ARASAAC/4.jpg",
+      "communicators/Global-Core Communicator ARASAAC/5.jpg",
+      "communicators/Global-Core Communicator ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/Global-Core Communicator ARASAAC/thumbnail.jpg",
+    "priority": {
+      "eu": 10
+    },
+    "url": "communicators/Global-Core Communicator ARASAAC/eu/Comunicador_Global-Core_ARASAAC_EU.grd.json",
+    "languages": [
+      "eu"
+    ]
+  },
+  {
+    "name": {
+      "en": "Global-Core Communicator ARASAAC"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "description": {
+      "en": "Dynamic communicator, developed by the ARASAAC team, with robust vocabulary, and two communication options combined with each other: communicator with core vocabulary distributed by categories and core vocabulary - essential words communicator.",
+      "gl": "Comunicador dinámico elaborado polo equipo de ARASAAC, con vocabulario robusto, e dúas opcións de comunicación misturadas: comunicador con vocabulario base distribuído por categorias e comunicador tipo core vocabulary-palabras esenciais."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Global-Core Communicator ARASAAC/1.jpg",
+      "communicators/Global-Core Communicator ARASAAC/2.jpg",
+      "communicators/Global-Core Communicator ARASAAC/3.jpg",
+      "communicators/Global-Core Communicator ARASAAC/4.jpg",
+      "communicators/Global-Core Communicator ARASAAC/5.jpg",
+      "communicators/Global-Core Communicator ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/Global-Core Communicator ARASAAC/thumbnail.jpg",
+    "priority": {
+      "gl": 10
+    },
+    "url": "communicators/Global-Core Communicator ARASAAC/gl/Comunicador_Global-Core_ARASAAC_GL.grd.json",
+    "languages": [
+      "gl"
+    ]
+  },
+  {
+    "name": {
+      "en": "Global-Core Communicator ARASAAC"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "description": {
+      "en": "Dynamic communicator, developed by the ARASAAC team, with robust vocabulary, and two communication options combined with each other: communicator with core vocabulary distributed by categories and core vocabulary - essential words communicator.",
+      "it": "Comunicatore dinamico, sviluppato dal team ARASAAC, con un vocabolario robusto e due opzioni di comunicazione combinate tra loro: comunicatore con vocabolario di base distribuito per categorie e vocabolario di base - comunicatore di parole essenziali."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ARASAAC",
+      "COMMUNICATOR"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Global-Core Communicator ARASAAC/1.jpg",
+      "communicators/Global-Core Communicator ARASAAC/2.jpg",
+      "communicators/Global-Core Communicator ARASAAC/3.jpg",
+      "communicators/Global-Core Communicator ARASAAC/4.jpg",
+      "communicators/Global-Core Communicator ARASAAC/5.jpg",
+      "communicators/Global-Core Communicator ARASAAC/6.jpg"
+    ],
+    "thumbnail": "communicators/Global-Core Communicator ARASAAC/thumbnail.jpg",
+    "priority": {
+      "it": 10
+    },
+    "url": "communicators/Global-Core Communicator ARASAAC/it/Comunicador_Global-Core_ARASAAC_IT.grd.json",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "name": "Word forms demo",
+    "author": "Benjamin Klaus",
+    "website": "https://github.com/klues",
+    "languages": [
+      "en",
+      "de",
+      "es"
+    ],
+    "description": {
+      "en": "This configuration provides demos for showing the possibilities regarding word forms (grammar) within AsTeRICS Grid"
+    },
+    "wordPrediction": false,
+    "tags": [
+      "DEMO"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Grammar demos/1.jpg",
+      "communicators/Grammar demos/2.jpg",
+      "communicators/Grammar demos/3.jpg",
+      "communicators/Grammar demos/4.jpg"
+    ],
+    "thumbnail": "communicators/Grammar demos/thumbnail.jpg",
+    "url": "communicators/Grammar demos/grammar-demos.grd.json"
+  },
+  {
+    "name": "Quick_Say20 - a 20 element language model",
+    "author": "Jim Luther",
+    "website": "https://github.com/jamjolu",
+    "languages": [
+      "en"
+    ],
+    "description": {
+      "en": "Quick_Say20 is meant to provide grammatically correct, flexible, conversational ability that is as efficient as possible in a 4 row, 5 column format that is usable on a small tablet or phone. I positioned the most commonly used words close to the home page, prioritizing core language. Quick_Say20 may be a good choice for users who already have some grammar and literacy skills."
+    },
+    "wordPrediction": false,
+    "tags": [
+      "COMMUNICATOR",
+      "4x5"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Quick_Say20/1.jpg",
+      "communicators/Quick_Say20/2.jpg",
+      "communicators/Quick_Say20/3.jpg",
+      "communicators/Quick_Say20/4.jpg",
+      "communicators/Quick_Say20/5.jpg"
+    ],
+    "thumbnail": "communicators/Quick_Say20/thumbnail.jpg",
+    "url": "communicators/Quick_Say20/Quick_Say_20_EN.grd.json"
+  },
+  {
+    "name": {
+      "en": "Shower time"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "5x9"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Hora de la ducha/LNA_Shower_Time_EN-1030x537.jpg"
+    ],
+    "thumbnail": "boards/Hora de la ducha/thumbnail.jpg",
+    "url": "boards/Hora de la ducha/en/LNA-ANL_Hora_de_la_ducha_Shower_time (1).grd.json",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "name": {
+      "es": "Hora de la ducha",
+      "en": "Shower time"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "5x9"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Hora de la ducha/es/1.jpg"
+    ],
+    "thumbnail": "boards/Hora de la ducha/es/thumbnail.jpg",
+    "url": "boards/Hora de la ducha/es/LNA-ANL_Hora_de_la_ducha_Shower_time.grd.json",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "name": {
+      "en": "Shower time",
+      "it": "Fare la doccia"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "5x9"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Hora de la ducha/LNA_Shower_Time_EN-1030x537.jpg"
+    ],
+    "thumbnail": "boards/Hora de la ducha/thumbnail.jpg",
+    "url": "boards/Hora de la ducha/it/LNA - Hora de la ducha_es_en_it.grd.json",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "name": {
+      "en": "Shower time",
+      "pt": "Hora de tomar banho"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "5x9"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Hora de la ducha/pt/LNA_Hora_de_la_ducha_PT-1030x536.jpg"
+    ],
+    "thumbnail": "boards/Hora de la ducha/pt/thumbnail.jpg",
+    "url": "boards/Hora de la ducha/pt/LNA-ANL_Hora_de_la_ducha_Shower_time_pt.grd.json",
+    "languages": [
+      "pt"
+    ]
+  },
+  {
+    "name": {
+      "en": "Playing with Lego pieces"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "4x7"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Jugando con piezas de Lego/en/1.jpg"
+    ],
+    "thumbnail": "boards/Jugando con piezas de Lego/en/thumbnail.jpg",
+    "url": "boards/Jugando con piezas de Lego/en/LNA-ANL_Jugar_Play_Lego (1).grd.json",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "name": {
+      "es": "Jugando con piezas de Lego",
+      "en": "Playing with Lego pieces"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "4x7"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Jugando con piezas de Lego/1.jpg"
+    ],
+    "thumbnail": "boards/Jugando con piezas de Lego/thumbnail.jpg",
+    "url": "boards/Jugando con piezas de Lego/es/LNA-ANL_Jugar_Play_Lego.grd.json",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "name": {
+      "en": "Playing with Lego pieces",
+      "it": "Giocare con il lego"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "4x7"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Jugando con piezas de Lego/1.jpg"
+    ],
+    "thumbnail": "boards/Jugando con piezas de Lego/thumbnail.jpg",
+    "url": "boards/Jugando con piezas de Lego/it/ANL - Giocare con il Lego_it.grd.json",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "name": {
+      "en": "Playing with Lego pieces",
+      "pt": "Brincando com peças de Lego"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "4x7"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Jugando con piezas de Lego/pt/1.jpg"
+    ],
+    "thumbnail": "boards/Jugando con piezas de Lego/pt/thumbnail.jpg",
+    "url": "boards/Jugando con piezas de Lego/pt/LNA-ANL_Jugar_Play_Lego_pt.grd.json",
+    "languages": [
+      "pt"
+    ]
+  },
+  {
+    "name": {
+      "es": "Quiero un bocadillo de"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "5x10"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Quiero un bocadillo de/1.jpg"
+    ],
+    "thumbnail": "boards/Quiero un bocadillo de/thumbnail.jpg",
+    "url": "boards/Quiero un bocadillo de/es/LNA-ANL_Quiero_un_bocadillo_de.grd.json",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "name": {
+      "it": "Voglio un panino"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "5x10"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Quiero un bocadillo de/1.jpg"
+    ],
+    "thumbnail": "boards/Quiero un bocadillo de/thumbnail.jpg",
+    "url": "boards/Quiero un bocadillo de/it/LNA-ANL_Quiero_un_bocadillo_de_it.grd.json",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "name": {
+      "en": "Go to eat"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "4x10"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Vamos a comer/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_en_1-1030x554.jpg",
+      "boards/Vamos a comer/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_en_2-1030x555.jpg",
+      "boards/Vamos a comer/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_en_3-1030x550.jpg",
+      "boards/Vamos a comer/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_en_4-1030x553.jpg"
+    ],
+    "thumbnail": "boards/Vamos a comer/thumbnail.jpg",
+    "url": "boards/Vamos a comer/en/LNA-ANL_Vamos_a_comer_Go_to_eat (1).grd.json",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "name": {
+      "es": "Vamos a comer",
+      "en": "Go to eat"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "4x10"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Vamos a comer/es/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_es_1-1030x552.jpg",
+      "boards/Vamos a comer/es/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_es_2-1030x554.jpg",
+      "boards/Vamos a comer/es/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_es_3-1030x552.jpg",
+      "boards/Vamos a comer/es/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_es_4-1030x551.jpg"
+    ],
+    "thumbnail": "boards/Vamos a comer/es/thumbnail.jpg",
+    "url": "boards/Vamos a comer/es/LNA-ANL_Vamos_a_comer_Go_to_eat.grd.json",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "name": {
+      "en": "Go to eat",
+      "it": "Andiamo a mangiare"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "4x10"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Vamos a comer/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_en_1-1030x554.jpg",
+      "boards/Vamos a comer/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_en_2-1030x555.jpg",
+      "boards/Vamos a comer/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_en_3-1030x550.jpg",
+      "boards/Vamos a comer/AsTeRICS-Grid-tablero-restaurante-pictogramas-ARASAAC_en_4-1030x553.jpg"
+    ],
+    "thumbnail": "boards/Vamos a comer/thumbnail.jpg",
+    "url": "boards/Vamos a comer/it/LNA-ANL_Vamos_a_comer_Go_to_eat_it.grd.json",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "name": {
+      "es": "Vamos a dibujar y pintar"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "5x9"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Vamos a dibujar y pintar/1.jpg"
+    ],
+    "thumbnail": "boards/Vamos a dibujar y pintar/thumbnail.jpg",
+    "url": "boards/Vamos a dibujar y pintar/es/LNA-ANL_Dibujar_y_pintar.grd.json",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "name": {
+      "it": "Colorare"
+    },
+    "author": "ARASAAC",
+    "website": "https://arasaac.org/",
+    "tags": [
+      "ARASAAC",
+      "5x9"
+    ],
+    "selfContained": false,
+    "images": [
+      "boards/Vamos a dibujar y pintar/1.jpg"
+    ],
+    "thumbnail": "boards/Vamos a dibujar y pintar/thumbnail.jpg",
+    "url": "boards/Vamos a dibujar y pintar/it/LNA-ANL_Pintar_Paint_colorare.grd.json",
+    "languages": [
+      "it"
+    ]
+  }
+]
