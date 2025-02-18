@@ -60,6 +60,7 @@ async function processData(startPath, outputFilename) {
         try {
             let parsed = JSON.parse(fileContent);
             if (!parsed.skip) {
+                i18nStrings.push(parsed.name);
                 jsonObjects.push(parsed);
                 let actions = parsed.actions || [];
                 for (let action of actions) {

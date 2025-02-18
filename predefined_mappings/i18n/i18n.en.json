@@ -66,5 +66,7 @@
   "cloudCover": "Cloud cover [%]",
   "windSpeed": "Wind speed [km/h]",
   "randomJokeFromIcanhazdadjoke.com": "Random joke from icanhazdadjoke.com",
-  "joke": "joke"
+  "joke": "joke",
+  "getWeatherData": "Get weather data",
+  "getJoke": "Get Joke"
 }
