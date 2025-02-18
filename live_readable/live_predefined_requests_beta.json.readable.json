@@ -34,7 +34,7 @@
               "selector": "current.apparent_temperature"
             },
             {
-              "name": "temperatureCelsius",
+              "name": "relativeHumidity",
               "selector": "current.relative_humidity_2m"
             },
             {

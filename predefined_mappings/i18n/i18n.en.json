@@ -29,6 +29,7 @@
   "longitude": "Longitude",
   "likeLongitude": "like <16.37130426553475>",
   "apparentTemperatureCelsius": "Apparent temperature [°C]",
+  "relativeHumidity": "Relative humidity",
   "isDayOrNight": "Day or Night",
   "night": "Night",
   "day": "Day",
