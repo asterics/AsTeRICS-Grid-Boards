@@ -281,7 +281,6 @@
     "url": "communicators/Communication in hospital - Dachverband AT/Communication_hospital_Dachverband_AT.grd.json"
   },
   {
-    "skipProd": true,
     "name": {
       "en": "CommuniKate 20"
     },
@@ -306,7 +305,7 @@
       "communicators/CommuniKate20/6.jpg"
     ],
     "thumbnail": "communicators/CommuniKate20/thumbnail.jpg",
-    "url": "communicators/CommuniKate20/en/communikate-20_EN.obz",
+    "url": "communicators/CommuniKate20/en/communikate-20_EN.grd.json",
     "languages": [
       "en"
     ]
@@ -645,7 +644,9 @@
     "author": "Benjamin Klaus",
     "website": "https://github.com/klues",
     "languages": [
-      "en"
+      "en",
+      "es",
+      "de"
     ],
     "description": {
       "en": "This configuration provides demos for showing the possibilities regarding live elements within AsTeRICS Grid"
@@ -666,7 +667,6 @@
     "url": "communicators/Live element demos/live-element-demos.grd.json"
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Quick Core 112"
     },
@@ -691,13 +691,12 @@
       "communicators/Quick Core 112/6.jpg"
     ],
     "thumbnail": "communicators/Quick Core 112/thumbnail.jpg",
-    "url": "communicators/Quick Core 112/en/quick-core-112.obz",
+    "url": "communicators/Quick Core 112/en/quick-core-112.grd.json",
     "languages": [
       "en"
     ]
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Quick Core 24"
     },
@@ -722,13 +721,12 @@
       "communicators/Quick Core 24/6.jpg"
     ],
     "thumbnail": "communicators/Quick Core 24/thumbnail.jpg",
-    "url": "communicators/Quick Core 24/en/quick-core-24.obz",
+    "url": "communicators/Quick Core 24/en/quick-core-24.grd.json",
     "languages": [
       "en"
     ]
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Quick Core 40"
     },
@@ -753,13 +751,12 @@
       "communicators/Quick Core 40/6.jpg"
     ],
     "thumbnail": "communicators/Quick Core 40/thumbnail.jpg",
-    "url": "communicators/Quick Core 40/en/quick-core-40.obz",
+    "url": "communicators/Quick Core 40/en/quick-core-40.grd.json",
     "languages": [
       "en"
     ]
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Quick Core 60"
     },
@@ -784,13 +781,12 @@
       "communicators/Quick Core 60/6.jpg"
     ],
     "thumbnail": "communicators/Quick Core 60/thumbnail.jpg",
-    "url": "communicators/Quick Core 60/en/quick-core-60.obz",
+    "url": "communicators/Quick Core 60/en/quick-core-60.grd.json",
     "languages": [
       "en"
     ]
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Quick Core 84"
     },
@@ -815,7 +811,7 @@
       "communicators/Quick Core 84/6.jpg"
     ],
     "thumbnail": "communicators/Quick Core 84/thumbnail.jpg",
-    "url": "communicators/Quick Core 84/en/quick-core-84.obz",
+    "url": "communicators/Quick Core 84/en/quick-core-84.grd.json",
     "languages": [
       "en"
     ]
@@ -847,7 +843,6 @@
     "url": "communicators/Quick_Say20/Quick_Say_20_EN.grd.json"
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Sequoia 15"
     },
@@ -872,7 +867,7 @@
       "communicators/Sequoia 15/6.jpg"
     ],
     "thumbnail": "communicators/Sequoia 15/thumbnail.jpg",
-    "url": "communicators/Sequoia 15/en/sequoia-15.obz",
+    "url": "communicators/Sequoia 15/en/sequoia-15.grd.json",
     "languages": [
       "en"
     ]
@@ -909,7 +904,6 @@
     ]
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Vocal Flair 24"
     },
@@ -934,13 +928,12 @@
       "communicators/Vocal Flair 24/6.jpg"
     ],
     "thumbnail": "communicators/Vocal Flair 24/thumbnail.jpg",
-    "url": "communicators/Vocal Flair 24/en/vocal-flair-24.obz",
+    "url": "communicators/Vocal Flair 24/en/vocal-flair-24.grd.json",
     "languages": [
       "en"
     ]
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Vocal Flair 40"
     },
@@ -965,13 +958,12 @@
       "communicators/Vocal Flair 40/6.jpg"
     ],
     "thumbnail": "communicators/Vocal Flair 40/thumbnail.jpg",
-    "url": "communicators/Vocal Flair 40/en/vocal-flair-40.obz",
+    "url": "communicators/Vocal Flair 40/en/vocal-flair-40.grd.json",
     "languages": [
       "en"
     ]
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Vocal Flair 60"
     },
@@ -996,7 +988,7 @@
       "communicators/Vocal Flair 60/6.jpg"
     ],
     "thumbnail": "communicators/Vocal Flair 60/thumbnail.jpg",
-    "url": "communicators/Vocal Flair 60/en/vocal-flair-60.obz",
+    "url": "communicators/Vocal Flair 60/en/vocal-flair-60.grd.json",
     "languages": [
       "en"
     ]
