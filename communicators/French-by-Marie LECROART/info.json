@@ -10,6 +10,7 @@
     "fr": "Un ensemble de pages de CAA robuste créé par Pierre Queutey et Marie Lecroart de L'Adapeila. Il contient deux arborescences : une arborescence de vocabulaire de base et une arborescence inspirée des organisations pragmatiques. L’arborescence de vocabulaire de base grammaticalise au présent."
   },
   "tags": ["10x8"],
+  "languages": ["fr"],
   "wordPrediction": false,
   "generateGlobalGrid": false
 }

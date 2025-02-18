@@ -375,6 +375,9 @@
     "tags": [
       "10x8"
     ],
+    "languages": [
+      "fr"
+    ],
     "wordPrediction": false,
     "generateGlobalGrid": false,
     "selfContained": true,
@@ -688,7 +691,8 @@
       "communicators/Live element demos/2.jpg",
       "communicators/Live element demos/3.jpg",
       "communicators/Live element demos/4.jpg",
-      "communicators/Live element demos/5.jpg"
+      "communicators/Live element demos/5.jpg",
+      "communicators/Live element demos/6.jpg"
     ],
     "thumbnail": "communicators/Live element demos/thumbnail.jpg",
     "url": "communicators/Live element demos/live-element-demos.grd.json"
