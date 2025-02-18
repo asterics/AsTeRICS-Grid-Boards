@@ -1,3 +1,3 @@
 files:
-  - source: /predefined_actions/i18n/i18n.en.json
-    translation: /predefined_actions/i18n/i18n.%osx_locale%.json
+  - source: /predefined_mappings/i18n/i18n.en.json
+    translation: /predefined_mappings/i18n/i18n.%osx_locale%.json
