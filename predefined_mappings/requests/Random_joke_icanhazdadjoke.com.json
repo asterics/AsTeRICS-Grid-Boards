@@ -1,0 +1,24 @@
+{
+  "id": "Jokes",
+  "name": "getJoke",
+  "actions": [
+    {
+      "name": "randomJokeFromIcanhazdadjoke.com",
+      "actionModelName": "GridActionHTTP",
+      "presets": {
+        "method": "GET",
+        "restUrl": "https://icanhazdadjoke.com/",
+        "acceptHeader": "application/json"
+      },
+      "extract": {
+        "mode": "EXTRACT_JSON",
+        "extractInfos": [
+          {
+            "name": "joke",
+            "selector": "joke"
+          }
+        ]
+      }
+    }
+  ]
+}

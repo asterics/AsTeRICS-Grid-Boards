@@ -1,0 +1,252 @@
+[
+  {
+    "id": "Weather_Data",
+    "name": "getWeatherData",
+    "actions": [
+      {
+        "name": "currentWeatherFromOpen-meteo.com",
+        "actionModelName": "GridActionHTTP",
+        "customValues": [
+          {
+            "name": "latitude",
+            "type": "text",
+            "placeholder": "likeLatitude"
+          },
+          {
+            "name": "longitude",
+            "type": "text",
+            "placeholder": "likeLongitude"
+          }
+        ],
+        "presets": {
+          "method": "GET",
+          "restUrl": "https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,rain,showers,snowfall,weather_code,cloud_cover,wind_speed_10m"
+        },
+        "extract": {
+          "mode": "EXTRACT_JSON",
+          "extractInfos": [
+            {
+              "name": "temperatureCelsius",
+              "selector": "current.temperature_2m"
+            },
+            {
+              "name": "apparentTemperatureCelsius",
+              "selector": "current.apparent_temperature"
+            },
+            {
+              "name": "temperatureCelsius",
+              "selector": "current.relative_humidity_2m"
+            },
+            {
+              "name": "isDayOrNight",
+              "selector": "current.is_day",
+              "mappings": {
+                "0": "night",
+                "1": "day"
+              }
+            },
+            {
+              "name": "precipitation",
+              "selector": "current.precipitation"
+            },
+            {
+              "name": "rain",
+              "selector": "current.rain"
+            },
+            {
+              "name": "snowfall",
+              "selector": "current.snowfall"
+            },
+            {
+              "name": "weatherDescription",
+              "selector": "current.weather_code",
+              "mappings": {
+                "0": "day",
+                "1": "mainlyClear",
+                "2": "partlyCloudy",
+                "3": "overcast",
+                "45": "fog",
+                "48": "rimeFog",
+                "51": "drizzleLight",
+                "53": "drizzleModerate",
+                "55": "drizzleDense",
+                "56": "freezingDrizzleLight",
+                "57": "freezingDrizzleDense",
+                "61": "rainSlight",
+                "63": "rainModerate",
+                "65": "rainHeavy",
+                "66": "freezingRainLight",
+                "67": "freezingRainHeavy",
+                "71": "snowfallSlight",
+                "73": "snowfallModerate",
+                "75": "snowfallHeavy",
+                "77": "snowGrains",
+                "80": "rainShowerSlight",
+                "81": "rainShowerModerate",
+                "82": "rainShowerViolent",
+                "85": "snowShowerSlight",
+                "86": "snowShowerHeavy",
+                "95": "thunderstorm",
+                "96": "thunderstormSlightHail",
+                "99": "thunderstormHeavyHail"
+              }
+            },
+            {
+              "name": "cloudCover",
+              "selector": "current.cloud_cover"
+            },
+            {
+              "name": "windSpeed",
+              "selector": "current.wind_speed_10m"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "Jokes",
+    "name": "getJoke",
+    "actions": [
+      {
+        "name": "randomJokeFromIcanhazdadjoke.com",
+        "actionModelName": "GridActionHTTP",
+        "presets": {
+          "method": "GET",
+          "restUrl": "https://icanhazdadjoke.com/",
+          "acceptHeader": "application/json"
+        },
+        "extract": {
+          "mode": "EXTRACT_JSON",
+          "extractInfos": [
+            {
+              "name": "joke",
+              "selector": "joke"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "Shelly_Plus_Plug_S_Gen2+_HTTP_API",
+    "name": "Shelly Plug S (Gen2+)",
+    "actions": [
+      {
+        "name": "getStatusCloud",
+        "actionModelName": "GridActionHTTP",
+        "customValues": [
+          {
+            "name": "cloudAddress",
+            "type": "text",
+            "placeholder": "likeShellyCloudUrl",
+            "autoStartWith": [
+              "https://"
+            ],
+            "mustMatch": "\"^(https?:\\/\\/)?(\\d{1,3}\\.){3}\\d{1,3}$\""
+          },
+          {
+            "name": "deviceId",
+            "type": "text",
+            "placeholder": "likeShellyDeviceId"
+          },
+          {
+            "name": "authCloudKey",
+            "type": "text",
+            "placeholder": "likeShellyAuthKey"
+          }
+        ],
+        "presets": {
+          "method": "GET",
+          "restUrl": "${cloudAddress}/device/status?auth_key=${authCloudKey}&id=${deviceId}"
+        },
+        "extract": {
+          "mode": "EXTRACT_JSON",
+          "extractInfos": [
+            {
+              "name": "stateOnOff",
+              "selector": "data.device_status.switch:0.output",
+              "mappings": {
+                "true": "on",
+                "false": "off"
+              }
+            },
+            {
+              "name": "currentPower",
+              "selector": "data.device_status.switch:0.apower"
+            },
+            {
+              "name": "currentVoltage",
+              "selector": "data.device_status.switch:0.voltage"
+            },
+            {
+              "name": "totalEnergyWh",
+              "selector": "data.device_status.switch:0.aenergy.total"
+            },
+            {
+              "name": "temperatureCelsius",
+              "selector": "data.device_status.switch:0.temperature.tC"
+            },
+            {
+              "name": "temperatureFahrenheit",
+              "selector": "data.device_status.switch:0.temperature.tF"
+            }
+          ]
+        }
+      },
+      {
+        "name": "getStatusLocal",
+        "actionModelName": "GridActionHTTP",
+        "customValues": [
+          {
+            "name": "deviceAddress",
+            "type": "text",
+            "placeholder": "likeLocalAddress",
+            "autoStartWith": [
+              "http://",
+              "https://"
+            ],
+            "mustMatch": "\"^(https?:\\/\\/)?(\\d{1,3}\\.){3}\\d{1,3}$\""
+          }
+        ],
+        "presets": {
+          "method": "GET",
+          "restUrl": "${deviceAddress}/rpc/Switch.GetStatus?id=0"
+        },
+        "extract": {
+          "mode": "EXTRACT_JSON",
+          "extractInfos": [
+            {
+              "name": "stateOnOff",
+              "selector": "output",
+              "mappings": {
+                "true": "on",
+                "false": "off"
+              }
+            },
+            {
+              "name": "currentPower",
+              "selector": "apower"
+            },
+            {
+              "name": "currentVoltage",
+              "selector": "voltage"
+            },
+            {
+              "name": "totalEnergyWh",
+              "selector": "aenergy.total"
+            },
+            {
+              "name": "temperatureCelsius",
+              "selector": "temperature.tC"
+            },
+            {
+              "name": "temperatureFahrenheit",
+              "selector": "temperature.tF"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
