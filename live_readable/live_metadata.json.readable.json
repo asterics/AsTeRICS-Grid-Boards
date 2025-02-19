@@ -846,6 +846,36 @@
   },
   {
     "name": {
+      "en": "Vocabuléo",
+      "fr": "Vocabuléo"
+    },
+    "author": "Pierre Queutey and Marie Lecroart, L'Adapeila",
+    "website": "https://adapeila.fr/",
+    "description": {
+      "en": "A robust set of AAC pages created by Pierre Queutey and Marie Lecroart of L'Adapeila. It contains two trees: a basic vocabulary tree and a tree inspired by pragmatic organizations. The basic vocabulary tree grammaticalizes in the present tense.",
+      "fr": "Un ensemble de pages de CAA robuste créé par Pierre Queutey et Marie Lecroart de L'Adapeila. Il contient deux arborescences : une arborescence de vocabulaire de base et une arborescence inspirée des organisations pragmatiques. L’arborescence de vocabulaire de base grammaticalise au présent."
+    },
+    "tags": [
+      "10x8"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "wordPrediction": false,
+    "generateGlobalGrid": false,
+    "selfContained": true,
+    "images": [
+      "communicators/Vocabuléo-by-LAdapeila/1.jpg",
+      "communicators/Vocabuléo-by-LAdapeila/2.jpg",
+      "communicators/Vocabuléo-by-LAdapeila/3.jpg",
+      "communicators/Vocabuléo-by-LAdapeila/4.jpg",
+      "communicators/Vocabuléo-by-LAdapeila/5.jpg"
+    ],
+    "thumbnail": "communicators/Vocabuléo-by-LAdapeila/thumbnail.jpg",
+    "url": "communicators/Vocabuléo-by-LAdapeila/marie-lecronart.grd.json"
+  },
+  {
+    "name": {
       "en": "Vocal Flair 24"
     },
     "author": "CC-By NC-SA by OpenAAC",
