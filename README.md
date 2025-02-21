@@ -4,9 +4,10 @@ This repository holds configurations used by [AsTeRICS Grid](https://github.com/
 These are the most important files and folders of this repository:
 * `boards`: contains single boards about specific topics
 * `communicators`: contains self-contained communicators (shown by default on the import page for new users in AsTeRICS Grid)
-* `predefined_actions`: contains information about [Predefined actions](https://github.com/asterics/AsTeRICS-Grid/blob/master/docs/documentation_user/05_actions.md#predefined-actions)
+* `predefined_mappings`: contains information about [Predefined actions](https://github.com/asterics/AsTeRICS-Grid/blob/master/docs/documentation_user/05_actions.md#predefined-actions) and predefined requests used for [Live elements](https://github.com/asterics/AsTeRICS-Grid/blob/master/docs/documentation_user/11_live_elements.md#action-result---predefined-action)
 * `live_metadata.json`: contains metadata about all `boards` and `communicators`, used by AsTeRICS Grid to retrieve metadata about all existing configurations. The file `live_metadata_beta.json` contains the same content but is used by AsTeRICS Grid "latest" and "beta" releases.
-* `live_predefined_actions.json`: contains metadata about all predefined actions stored in folder `predefined_actions`, which is used by AsTeRICS Grid. The file `live_predefined_actions_beta.json` contains the same content but is used by AsTeRICS Grid "latest" and "beta" releases.
+* `live_predefined_actions.json`: contains metadata about all predefined actions stored in folder `predefined_mappings/actions`, which is used by AsTeRICS Grid. The file `live_predefined_actions_beta.json` contains the same content but is used by AsTeRICS Grid "latest" and "beta" releases.
+* `live_predefined_requests.json`: contains metadata about all predefined requests stored in folder `predefined_mappings/requests`, which is used by AsTeRICS Grid. The file `live_predefined_requests_beta.json` contains the same content but is used by AsTeRICS Grid "latest" and "beta" releases.
 
 # Board sets
 
@@ -90,11 +91,11 @@ The file info.json may contain the following properties in JSON format:
 
 # Predefined actions
 
-The folder `predefined_actions` contains metadata about [Predefined actions](https://github.com/asterics/AsTeRICS-Grid/blob/master/docs/documentation_user/05_actions.md#predefined-actions) which make the configuration of complex actions (e.g. HTTP requests to an API) more user-friendly. Each subfolder of `predefined_actions` contains information about a specific device, or more general an `action group`. All data from these folders is merged to `live_predefined_actions.json` for the use within AsTeRICS Grid.
+The folder `predefined_mappings/actions` contains metadata about [Predefined actions](https://github.com/asterics/AsTeRICS-Grid/blob/master/docs/documentation_user/05_actions.md#predefined-actions) which make the configuration of complex actions (e.g. HTTP requests to an API) more user-friendly. Each subfolder of `predefined_mappings/actions` contains information about a specific device, or more general an `action group`. All data from these folders is merged to `live_predefined_actions.json` for the use within AsTeRICS Grid.
 
 ## Structure of a predefined action
 
-This is the JSON structure of a predefined action group, located in a subfolder of `predefined_actions`:
+This is the JSON structure of a predefined action group, located in a subfolder of `predefined_mappings/actions`:
 * `id`: a unique ID of the device or action group, e.g. a specific device with a specific API version like `Shelly_Plus_Plug_S_Gen1_HTTP_API`
 * `name`: the display name for this action group 
 * `actions`: an array of actions possible for this action group. Each action has these properties:
@@ -112,9 +113,17 @@ This is the JSON structure of a predefined action group, located in a subfolder 
       * `mustMatch` (optional, only for type `text`): a Javascript regex the string given by the user must match 
   * `presets`: preset values which should be set to the properties of the given `actionModelName`. For instance for `GridActionHTTP` there could be the preset `{"method": "POST"}` to specify that a POST request should be used (without any user input). It's also possible to use placeholders in the form of [Javascript template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals), for instance there could be the preset value `"restUrl": "${httpUrl}/somePath/0?action=${actionType}"` where `${httpUrl}` and `{actionType}` will be replaced by the `customValues` with the names `httpUrl` and `actionType`, defined above and specified by the user via the UI.
 
-## Translations
+# Predefined requests
+The folder `predefined_mappings/requests` contains information about predefined requests used for getting data for [Live elements](https://github.com/asterics/AsTeRICS-Grid/blob/master/docs/documentation_user/11_live_elements.md). The data format is the same as for predefined actions, but also containing some more information about how to extract data from the action results for being displayed. Therefore each `action` in the configuration can have a property `extract` with the following data:
+* `mode`: the mode how to extract data, can be one of the values from [GridElementLive.EXTRACT_MODES](https://github.com/asterics/AsTeRICS-Grid/blob/8b5da575685799248ef75bb1c3d2663138c12df8/src/js/model/GridElementLive.js#L45)
+* `extractInfos`: array of possible values selectable by the user, each one with the following properties:
+   * `name`: translatable name shown to the user as label to select, see [docs about selecting "Value to display"](https://github.com/asterics/AsTeRICS-Grid/blob/master/docs/documentation_user/11_live_elements.md#action-result---predefined-action)
+   * `selector`: CSS or JSON selector for extracting the value from the response, see [docs explaining the selectors](https://github.com/asterics/AsTeRICS-Grid/blob/master/docs/documentation_user/11_live_elements.md#action-result---http-action)
+   * `mappings`: optional mapping of result values to (translatable) display values. e.g. the mapping `{"true": "on"}` maps a `true` result to the string "on", which then can be translated - see below.
 
-The `name` properties of the JSON defining a predefined action group (see above) can be translated via crowdin. Each run of `npm run generate` automatically generates the file `predefined_actions/i18n/i18n.en.json` which then must be manually translated to the English values. Afterwards they can be translated into other languages in this [crowdin project](https://crowdin.com/project/asterics-grid-boards).
+# Translations of predefined mappings
+
+The `name` properties of the JSON defining a predefined action group and other translatable values (see above) can be translated via crowdin. Each run of `npm run generate` automatically generates the file `predefined_mappings/i18n/i18n.en.json` which then must be manually translated to the English values. Afterwards they can be translated into other languages in this [crowdin project](https://crowdin.com/project/asterics-grid-boards).
 
 # Acknowledgements
 This repository was created within the [netidee project funding for AsTeRICS Grid](https://www.netidee.at/asterics-grid), Call 18.
