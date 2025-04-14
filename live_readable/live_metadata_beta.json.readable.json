@@ -667,6 +667,23 @@
     "url": "communicators/Live element demos/live-element-demos.grd.json"
   },
   {
+    "name": "Matrix messenger demo",
+    "author": "Benjamin Klaus",
+    "website": "https://github.com/klues",
+    "languages": [
+      "en"
+    ],
+    "description": {
+      "en": "This configuration provides demos for showing the possibilities regarding matrix messenger within AsTeRICS Grid"
+    },
+    "wordPrediction": false,
+    "tags": [
+      "DEMO"
+    ],
+    "selfContained": true,
+    "url": "communicators/Matrix messenger demo/matrix_messenger_demo.grd.json"
+  },
+  {
     "name": {
       "en": "Quick Core 112"
     },
