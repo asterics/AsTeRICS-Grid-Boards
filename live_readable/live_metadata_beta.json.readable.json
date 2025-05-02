@@ -681,6 +681,14 @@
       "DEMO"
     ],
     "selfContained": true,
+    "images": [
+      "communicators/Matrix messenger demo/1.jpg",
+      "communicators/Matrix messenger demo/2.jpg",
+      "communicators/Matrix messenger demo/3.jpg",
+      "communicators/Matrix messenger demo/4.jpg",
+      "communicators/Matrix messenger demo/5.jpg"
+    ],
+    "thumbnail": "communicators/Matrix messenger demo/thumbnail.jpg",
     "url": "communicators/Matrix messenger demo/matrix_messenger_demo.grd.json"
   },
   {
