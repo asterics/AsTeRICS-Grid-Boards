@@ -1,0 +1,11 @@
+{
+  "name": "Podcast demo",
+  "author": "Benjamin Klaus",
+  "website": "https://github.com/klues",
+  "languages": ["en"],
+  "description": {
+    "en": "This configuration provide a demo grid for showing the possibilities regarding podcast within AsTeRICS Grid"
+  },
+  "wordPrediction": false,
+  "tags": ["DEMO"]
+}

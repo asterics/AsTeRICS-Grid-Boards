@@ -692,6 +692,27 @@
     "url": "communicators/Matrix messenger demo/matrix_messenger_demo.grd.json"
   },
   {
+    "name": "Podcast demo",
+    "author": "Benjamin Klaus",
+    "website": "https://github.com/klues",
+    "languages": [
+      "en"
+    ],
+    "description": {
+      "en": "This configuration provide a demo grid for showing the possibilities regarding podcast within AsTeRICS Grid"
+    },
+    "wordPrediction": false,
+    "tags": [
+      "DEMO"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Podcast demo/1.jpg"
+    ],
+    "thumbnail": "communicators/Podcast demo/thumbnail.jpg",
+    "url": "communicators/Podcast demo/podcast_demo.grd.json"
+  },
+  {
     "name": {
       "en": "Quick Core 112"
     },
