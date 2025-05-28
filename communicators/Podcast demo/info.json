@@ -4,7 +4,7 @@
   "website": "https://github.com/klues",
   "languages": ["en"],
   "description": {
-    "en": "This configuration provide a demo grid for showing the possibilities regarding podcast within AsTeRICS Grid"
+    "en": "This configuration provides a demo grid for showing the possibilities regarding podcast within AsTeRICS Grid"
   },
   "wordPrediction": false,
   "tags": ["DEMO"]

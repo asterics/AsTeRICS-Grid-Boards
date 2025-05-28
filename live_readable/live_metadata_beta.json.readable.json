@@ -229,6 +229,27 @@
     ]
   },
   {
+    "name": "Color categories demo",
+    "author": "Benjamin Klaus",
+    "website": "https://github.com/klues",
+    "languages": [
+      "en"
+    ],
+    "description": {
+      "en": "This configuration provides a demo grid for showing elements in different color category schemes: Fitzgerald, Goossens, Montessori"
+    },
+    "wordPrediction": false,
+    "tags": [
+      "DEMO"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Color categories demo/1.jpg"
+    ],
+    "thumbnail": "communicators/Color categories demo/thumbnail.jpg",
+    "url": "communicators/Color categories demo/color-categories-demo.grd.json"
+  },
+  {
     "name": {
       "en": "Communication in hospital - Dachverband AT",
       "de": "Kommunikation in der Klinik - Dachverband AT"
@@ -699,7 +720,7 @@
       "en"
     ],
     "description": {
-      "en": "This configuration provide a demo grid for showing the possibilities regarding podcast within AsTeRICS Grid"
+      "en": "This configuration provides a demo grid for showing the possibilities regarding podcast within AsTeRICS Grid"
     },
     "wordPrediction": false,
     "tags": [

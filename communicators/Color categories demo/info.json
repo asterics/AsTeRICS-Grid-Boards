@@ -1,0 +1,11 @@
+{
+  "name": "Color categories demo",
+  "author": "Benjamin Klaus",
+  "website": "https://github.com/klues",
+  "languages": ["en"],
+  "description": {
+    "en": "This configuration provides a demo grid for showing elements in different color category schemes: Fitzgerald, Goossens, Montessori"
+  },
+  "wordPrediction": false,
+  "tags": ["DEMO"]
+}
