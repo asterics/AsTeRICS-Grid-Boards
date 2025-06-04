@@ -1,5 +1,33 @@
 [
   {
+    "name": "ABA Programmes_niveau avancé_V1",
+    "author": "Créé par ABA Programmes - Ornella Grelier",
+    "website": "https://www.abaprogrammes.com/",
+    "languages": [
+      "fr"
+    ],
+    "description": {
+      "fr": "Cette version propose un système de communication complet (robuste) qui permet de pouvoir communiquer sur des thèmes larges et variés immédiatement. Nous vous conseillons vivement de l’adapter au profil, besoins et intérêts de votre apprenant. Contactez-nous si vous avez besoin d’aide dans la mise en place (info@abaprogrammes.com)",
+      "en": "This version offers a complete (robust) communication system that allows for immediate communication on a wide range of topics. We strongly recommend adapting it to your learner’s profile, needs, and interests. Contact us if you need help with the setup (info@abaprogrammes.com)"
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ABA",
+      "CAA",
+      "NUMERIQUE"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/ABA programmes/1.jpg",
+      "communicators/ABA programmes/2.jpg",
+      "communicators/ABA programmes/3.jpg",
+      "communicators/ABA programmes/4.jpg",
+      "communicators/ABA programmes/5.jpg"
+    ],
+    "thumbnail": "communicators/ABA programmes/thumbnail.jpg",
+    "url": "communicators/ABA programmes/aba-programmes.grd.json"
+  },
+  {
     "name": {
       "en": "ARASAAC Global Grid Core Communicator"
     },

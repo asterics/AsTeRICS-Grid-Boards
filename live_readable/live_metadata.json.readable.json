@@ -1,5 +1,33 @@
 [
   {
+    "name": "ABA Programmes_niveau avancé_V1",
+    "author": "Créé par ABA Programmes - Ornella Grelier",
+    "website": "https://www.abaprogrammes.com/",
+    "languages": [
+      "fr"
+    ],
+    "description": {
+      "fr": "Cette version propose un système de communication complet (robuste) qui permet de pouvoir communiquer sur des thèmes larges et variés immédiatement. Nous vous conseillons vivement de l’adapter au profil, besoins et intérêts de votre apprenant. Contactez-nous si vous avez besoin d’aide dans la mise en place (info@abaprogrammes.com)",
+      "en": "This version offers a complete (robust) communication system that allows for immediate communication on a wide range of topics. We strongly recommend adapting it to your learner’s profile, needs, and interests. Contact us if you need help with the setup (info@abaprogrammes.com)"
+    },
+    "wordPrediction": true,
+    "tags": [
+      "ABA",
+      "CAA",
+      "NUMERIQUE"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/ABA programmes/1.jpg",
+      "communicators/ABA programmes/2.jpg",
+      "communicators/ABA programmes/3.jpg",
+      "communicators/ABA programmes/4.jpg",
+      "communicators/ABA programmes/5.jpg"
+    ],
+    "thumbnail": "communicators/ABA programmes/thumbnail.jpg",
+    "url": "communicators/ABA programmes/aba-programmes.grd.json"
+  },
+  {
     "name": {
       "en": "ARASAAC Global Grid Core Communicator"
     },
@@ -227,6 +255,27 @@
     "languages": [
       "es"
     ]
+  },
+  {
+    "name": "Color categories demo",
+    "author": "Benjamin Klaus",
+    "website": "https://github.com/klues",
+    "languages": [
+      "en"
+    ],
+    "description": {
+      "en": "This configuration provides a demo grid for showing elements in different color category schemes: Fitzgerald, Goossens, Montessori"
+    },
+    "wordPrediction": false,
+    "tags": [
+      "DEMO"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Color categories demo/1.jpg"
+    ],
+    "thumbnail": "communicators/Color categories demo/thumbnail.jpg",
+    "url": "communicators/Color categories demo/color-categories-demo.grd.json"
   },
   {
     "name": {
@@ -690,6 +739,27 @@
     ],
     "thumbnail": "communicators/Matrix messenger demo/thumbnail.jpg",
     "url": "communicators/Matrix messenger demo/matrix_messenger_demo.grd.json"
+  },
+  {
+    "name": "Podcast demo",
+    "author": "Benjamin Klaus",
+    "website": "https://github.com/klues",
+    "languages": [
+      "en"
+    ],
+    "description": {
+      "en": "This configuration provides a demo grid for showing the possibilities regarding podcast within AsTeRICS Grid"
+    },
+    "wordPrediction": false,
+    "tags": [
+      "DEMO"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/Podcast demo/1.jpg"
+    ],
+    "thumbnail": "communicators/Podcast demo/thumbnail.jpg",
+    "url": "communicators/Podcast demo/podcast_demo.grd.json"
   },
   {
     "name": {
