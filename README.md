@@ -132,5 +132,9 @@ This repository was created within the [netidee project funding for AsTeRICS Gri
 
 Thanks to [crowdin](https://crowdin.com/project/asterics-grid-boards) for providing a free open source license.
 
+# License
+
+All source code in this repository is licensed under the [AGPL-3.0](./LICENSE). All other information like documentation and communication grids are licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de). If another license is mentioned in `info.json` of a communication grid set, this license applies.
+
 
 

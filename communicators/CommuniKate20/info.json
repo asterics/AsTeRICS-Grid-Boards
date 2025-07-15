@@ -9,5 +9,6 @@
   },
   "tags": ["CommuniKate", "5x4"],
   "wordPrediction": false,
-  "generateGlobalGrid": true
+  "generateGlobalGrid": true,
+  "license": "CC BY-NC-SA 4.0"
 }
