@@ -134,7 +134,4 @@ Thanks to [crowdin](https://crowdin.com/project/asterics-grid-boards) for provid
 
 # License
 
-All source code in this repository is licensed under the [AGPL-3.0](./LICENSE). All other information like documentation and communication grids are licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). If another license is mentioned in `info.json` of a communication grid set, this license applies.
-
-
-
+All source code in this repository is licensed under the [AGPL-3.0](./LICENSE). All other information like documentation and communication grids are licensed under the [CC BY-NC-SA 4.0]([https://creativecommons.org/licenses/by-sa/4.0/deed.en](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)). If another license is mentioned in `info.json` of a communication grid set, this license applies.
