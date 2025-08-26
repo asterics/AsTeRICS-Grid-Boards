@@ -344,6 +344,7 @@
     ],
     "wordPrediction": false,
     "generateGlobalGrid": true,
+    "license": "CC BY-NC-SA 4.0",
     "selfContained": true,
     "images": [
       "communicators/CommuniKate20/1.jpg",
@@ -966,6 +967,38 @@
     "languages": [
       "en"
     ]
+  },
+  {
+    "name": {
+      "en": "Translation Herz-Jesu Hospital",
+      "de": "Übersetzung Herz-Jesu Krankenhaus"
+    },
+    "author": "Herz Jesu Krankenhaus GmbH",
+    "website": "https://www.kh-herzjesu.at/",
+    "languages": [
+      "de",
+      "en",
+      "sr",
+      "tr"
+    ],
+    "description": {
+      "en": "This communication aid (Asterics AAC) supports (foreign-language) patients in communicating with medical staff in different languages. The use of symbols enables quick and precise communication, especially in care situations. Needs, instructions, and everyday questions are communicated clearly, effectively overcoming language barriers and thus ensuring efficient patient care.",
+      "de": "Diese Kommunikations-Hilfe unterstützt (fremdsprachige) Patient*innen bei der Kommunikation mit medizinischem Personal in unterschiedlichen Sprachen. Durch den Einsatz von leicht verständlichen Symbolen ermöglicht es eine schnelle und präzise Verständigung, besonders in Pflegesituationen. Bedürfnisse, Anweisungen und Alltagsfragen werden klar kommuniziert, Sprachbarrieren effektiv überwunden und so eine effiziente Patient*innenversorgung gewährleistet.",
+      "tr": "Bu iletişim aracı, yabancı dil konuşan hastaların farklı dillerdeki sağlık personeliyle iletişim kurmasını destekler. Anlaşılması kolay sembollerin kullanımı, özellikle bakım durumlarında hızlı ve net iletişimi mümkün kılar. İhtiyaçlar, talimatlar ve günlük sorular net bir şekilde iletilerek dil engelleri etkili bir şekilde aşılır ve böylece verimli bir hasta bakımı sağlanır.",
+      "sr": "Ovo komunikaciono pomagalo podržava (strane) pacijente u komunikaciji sa medicinskim osobljem na različitim jezicima. Upotreba lako razumljivih simbola omogućava brzu i preciznu komunikaciju, posebno u situacijama nege. Potrebe, uputstva i svakodnevna pitanja se jasno komuniciraju, efikasno prevazilazeći jezičke barijere i time obezbeđujući efikasnu negu pacijenata."
+    },
+    "wordPrediction": false,
+    "tags": [],
+    "selfContained": true,
+    "images": [
+      "communicators/Uebersetzung_HJK/1.jpg",
+      "communicators/Uebersetzung_HJK/2.jpg",
+      "communicators/Uebersetzung_HJK/3.jpg",
+      "communicators/Uebersetzung_HJK/4.jpg",
+      "communicators/Uebersetzung_HJK/5.jpg"
+    ],
+    "thumbnail": "communicators/Uebersetzung_HJK/thumbnail.jpg",
+    "url": "communicators/Uebersetzung_HJK/uebersetzung_hjk.grd.json"
   },
   {
     "name": {
