@@ -146,8 +146,16 @@
     "website": "https://www.utac.cat/",
     "description": {
       "en": "The CACE-UTAC is a pictographic vocabulary of more than 800 words, organised into semantic categories. Get <a target=\"_blank\" href=\"https://aulaabierta.arasaac.org/en/vocabulary-utac-cace\">more information about CACE-UTAC on ARASAAC aula abierta</a>.",
+      "es": "El CACE-UTAC es un vocabulario pictográfico de más de 800 palabras, organizado en categorías semánticas. Para más información al respecto se puede consultar la <a target=\"_blank\" href=\"https://aulaabierta.arasaac.org/vocabulario-utac-cace\">página sobre el vocabulario UTAC-CACE en el Aula Abierta de ARASAAC</a>.",
       "ca": "El CACE-UTAC és un vocabulari pictogràfic de més de 800 paraules, organitzat en categories semàntiques. Per a més informació al respecte podeu consultar aquest <a target=\"_blank\" href=\"https://www.dropbox.com/s/rztknn83bbgna49/Poster%20CACE%20-%20Handout.pdf?dl=0\">pòster en format PDF a la pàgina de la UTAC</a>."
     },
+    "languages": [
+      "en",
+      "es",
+      "ca",
+      "zh",
+      "ar"
+    ],
     "wordPrediction": false,
     "tags": [
       "ARASAAC",
@@ -161,42 +169,11 @@
       "communicators/CACE-UTAC 2021 - ARASAAC/3.jpg",
       "communicators/CACE-UTAC 2021 - ARASAAC/4.jpg",
       "communicators/CACE-UTAC 2021 - ARASAAC/5.jpg",
-      "communicators/CACE-UTAC 2021 - ARASAAC/6.jpg"
+      "communicators/CACE-UTAC 2021 - ARASAAC/6.jpg",
+      "communicators/CACE-UTAC 2021 - ARASAAC/7.jpg"
     ],
     "thumbnail": "communicators/CACE-UTAC 2021 - ARASAAC/thumbnail.jpg",
-    "url": "communicators/CACE-UTAC 2021 - ARASAAC/ca/CACE-UTAC_2021_CA.grd.json",
-    "languages": [
-      "ca"
-    ]
-  },
-  {
-    "name": "CACE-UTAC 2021 - ARASAAC",
-    "author": "UTAC (Unitat de Tècniques Augmentatives de Comunicació)",
-    "website": "https://www.utac.cat/",
-    "description": {
-      "en": "The CACE-UTAC is a pictographic vocabulary of more than 800 words, organised into semantic categories. Get <a target=\"_blank\" href=\"https://aulaabierta.arasaac.org/en/vocabulary-utac-cace\">more information about CACE-UTAC on ARASAAC aula abierta</a>.",
-      "es": "El CACE-UTAC es un vocabulario pictográfico de más de 800 palabras, organizado en categorías semánticas. Para más información al respecto se puede consultar la <a target=\"_blank\" href=\"https://aulaabierta.arasaac.org/vocabulario-utac-cace\">página sobre el vocabulario UTAC-CACE en el Aula Abierta de ARASAAC</a>."
-    },
-    "wordPrediction": false,
-    "tags": [
-      "ARASAAC",
-      "COMMUNICATOR",
-      "4x8"
-    ],
-    "selfContained": true,
-    "images": [
-      "communicators/CACE-UTAC 2021 - ARASAAC/1.jpg",
-      "communicators/CACE-UTAC 2021 - ARASAAC/2.jpg",
-      "communicators/CACE-UTAC 2021 - ARASAAC/3.jpg",
-      "communicators/CACE-UTAC 2021 - ARASAAC/4.jpg",
-      "communicators/CACE-UTAC 2021 - ARASAAC/5.jpg",
-      "communicators/CACE-UTAC 2021 - ARASAAC/6.jpg"
-    ],
-    "thumbnail": "communicators/CACE-UTAC 2021 - ARASAAC/thumbnail.jpg",
-    "url": "communicators/CACE-UTAC 2021 - ARASAAC/es/CACE-UTAC_2021_ES.grd.json",
-    "languages": [
-      "es"
-    ]
+    "url": "communicators/CACE-UTAC 2021 - ARASAAC/CACE_2021_250728_multilingue.grd.json"
   },
   {
     "name": "CACE-UTAC 2021 ST-G - ARASAAC",
