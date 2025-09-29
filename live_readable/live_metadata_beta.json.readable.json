@@ -1008,7 +1008,6 @@
     "url": "communicators/Vocabuléo-by-LAdapeila/vocabuléo-by-ladapeila.grd.json"
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Vocal Flair 112"
     },
@@ -1033,7 +1032,38 @@
       "communicators/Vocal Flair 112/6.jpg"
     ],
     "thumbnail": "communicators/Vocal Flair 112/thumbnail.jpg",
-    "url": "communicators/Vocal Flair 112/en/vocal-flair-112.obz",
+    "url": "communicators/Vocal Flair 112/en/vocal-flair-112.grd.json",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "skipProd": true,
+    "name": {
+      "en": "Vocal Flair 112"
+    },
+    "author": "CC-By NC-SA by OpenAAC",
+    "website": "https://www.openboardformat.org/examples",
+    "description": {
+      "en": "Vocal Flair 112 is a core, flat-but-dynamic-styled vocabulary set with up to 112 buttons per board, including a keyboard on the main board."
+    },
+    "tags": [
+      "OpenAAC",
+      "14x8"
+    ],
+    "wordPrediction": false,
+    "generateGlobalGrid": true,
+    "selfContained": true,
+    "images": [
+      "communicators/Vocal Flair 112.backup/1.jpg",
+      "communicators/Vocal Flair 112.backup/2.jpg",
+      "communicators/Vocal Flair 112.backup/3.jpg",
+      "communicators/Vocal Flair 112.backup/4.jpg",
+      "communicators/Vocal Flair 112.backup/5.jpg",
+      "communicators/Vocal Flair 112.backup/6.jpg"
+    ],
+    "thumbnail": "communicators/Vocal Flair 112.backup/thumbnail.jpg",
+    "url": "communicators/Vocal Flair 112.backup/en/vocal-flair-112.obz",
     "languages": [
       "en"
     ]
