@@ -1034,7 +1034,6 @@
     "url": "communicators/Vocabuléo-by-LAdapeila/vocabuléo-by-ladapeila.grd.json"
   },
   {
-    "skipProd": true,
     "name": {
       "en": "Vocal Flair 112"
     },
@@ -1059,7 +1058,7 @@
       "communicators/Vocal Flair 112/6.jpg"
     ],
     "thumbnail": "communicators/Vocal Flair 112/thumbnail.jpg",
-    "url": "communicators/Vocal Flair 112/en/vocal-flair-112.obz",
+    "url": "communicators/Vocal Flair 112/en/vocal-flair-112.grd.json",
     "languages": [
       "en"
     ]
