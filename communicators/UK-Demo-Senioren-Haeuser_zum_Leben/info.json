@@ -1,0 +1,12 @@
+{
+  "name": "UK-Demo für Senior*innenbetreuung",
+  "author": "Julia Kaufmann, Markus Laßmann, Elisabeth Schaupp, Häuser zum Leben, Wien",
+  "website": "https://kwp.at/",
+  "languages": ["de"],
+  "description": {
+    "en": "Demo configuration containing examples for basic communication, adapted for use in elderly care. Includes printable cards usable for biographical work.",
+    "de": "Demo Konfiguration für einfache Kommunikation, angepasst zur Verwendung in der Senior*innenbetreuung. Enthält druckbare Karten für die Biographiearbeit."
+  },
+  "wordPrediction": true,
+  "tags": ["DEMO"]
+}

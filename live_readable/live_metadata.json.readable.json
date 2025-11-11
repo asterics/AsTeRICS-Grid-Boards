@@ -978,6 +978,32 @@
     "url": "communicators/Uebersetzung_HJK/uebersetzung_hjk.grd.json"
   },
   {
+    "name": "UK-Demo für Senior*innenbetreuung",
+    "author": "Julia Kaufmann, Markus Laßmann, Elisabeth Schaupp, Häuser zum Leben, Wien",
+    "website": "https://kwp.at/",
+    "languages": [
+      "de"
+    ],
+    "description": {
+      "en": "Demo configuration containing examples for basic communication, adapted for use in elderly care. Includes printable cards usable for biographical work.",
+      "de": "Demo Konfiguration für einfache Kommunikation, angepasst zur Verwendung in der Senior*innenbetreuung. Enthält druckbare Karten für die Biographiearbeit."
+    },
+    "wordPrediction": true,
+    "tags": [
+      "DEMO"
+    ],
+    "selfContained": true,
+    "images": [
+      "communicators/UK-Demo-Senioren-Haeuser_zum_Leben/1.jpg",
+      "communicators/UK-Demo-Senioren-Haeuser_zum_Leben/2.jpg",
+      "communicators/UK-Demo-Senioren-Haeuser_zum_Leben/3.jpg",
+      "communicators/UK-Demo-Senioren-Haeuser_zum_Leben/4.jpg",
+      "communicators/UK-Demo-Senioren-Haeuser_zum_Leben/5.jpg"
+    ],
+    "thumbnail": "communicators/UK-Demo-Senioren-Haeuser_zum_Leben/thumbnail.jpg",
+    "url": "communicators/UK-Demo-Senioren-Haeuser_zum_Leben/betreuung_hzl.grd.json"
+  },
+  {
     "name": {
       "en": "Vocabuléo",
       "fr": "Vocabuléo"
