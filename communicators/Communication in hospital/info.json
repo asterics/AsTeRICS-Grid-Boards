@@ -1,0 +1,16 @@
+{
+  "name": {
+    "en": "Communication in hospital",
+    "de": "Kommunikation in der Klinik"
+  },
+  "author": "Projekt InDiKo, UAS Technikum Wien",
+  "website": "https://www.technikum-wien.at/forschungsprojekte/indiko/?n_tags=3154",
+  "languages": ["de", "en", "fr", "es", "it", "pt", "ru", "tr", "pl", "ro", "uk", "sr", "zh", "hi", "ar", "fa", "bn", "bg", "he", "id", "ja", "ur"],
+  "description": {
+    "en": "Configuration for communication in the context of hospitals. Developed in project \"InDiKo\" at UAS Technikum Wien. Based on a set developed by \"Dachverband der Wiener Sozialeinrichtungen\" in cooperation with the hospital \"Klinik Floridsdorf\" in Vienna, Austria.",
+    "de": "Konfiguration für Kommunikation im Krankenhaus-Kontext. Entwickelt im Projekt \"InDiKo\" and der FH Technikum Wien. Basiert auf einem Set, das ursprünglich vom Dachverband der Wiener Sozialeinrichtungen gemeinsam mit der Klinik Floridsdorf in Wien entwickelt wurde."
+  },
+  "wordPrediction": true,
+  "tags": ["BASIC", "MEDICAL", "HOSPITAL"],
+  "selfContained": true
+}
