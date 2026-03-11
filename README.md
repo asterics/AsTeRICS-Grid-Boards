@@ -1,3 +1,5 @@
+**Note:** archived the repository in the process of renaming AsTeRICS Grid to Asterics AAC. Use this forked repo instead: https://github.com/asterics/Asterics-AAC-Data
+
 # AsTeRICS-Grid-Boards
 This repository holds configurations used by [AsTeRICS Grid](https://github.com/asterics/AsTeRICS-Grid). Data from the `main` branch is made available via [GitHub pages](https://asterics.github.io/AsTeRICS-Grid-Boards/live_metadata.json), which is used by the app to download configurations.
 
